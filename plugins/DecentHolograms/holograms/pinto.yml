@@ -1,0 +1,14 @@
+location: hub:-36,436:-57,884:21,956
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: xereca
+    height: 0.3
+  - content: caralhao
+    height: 0.3
+  actions: {}

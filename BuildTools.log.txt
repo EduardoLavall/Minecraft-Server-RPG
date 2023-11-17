@@ -1,0 +1,32 @@
+Loading BuildTools version: git-BuildTools-2836244-160 (#160)
+Java Version: Java 8
+Current Path: C:\Users\Eduardo\Desktop\Server 1.20.1\.
+*** Could not find PortableGit installation, downloading. ***
+Starting download of https://github.com/git-for-windows/git/releases/download/v2.30.0.windows.1/PortableGit-2.30.0-32-bit.7z.exe
+Downloaded file: PortableGit-2.30.0-32-bit\PortableGit-2.30.0-32-bit.7z.exe with hash: b3768c64b6afa082043659c56acb4c3483df6b6e884fdc7e3c769f7e7e99a3a8
+Extracting downloaded git install
+*** Using downloaded git PortableGit-2.30.0-32-bit\PortableGit ***
+*** Please note that this is a beta feature, so if it does not work please also try a manual install of git from https://git-for-windows.github.io/ ***
+git version 2.30.0.windows.1
+EduardoLavall
+eduardolavalldias@gmail.com
+java version "1.8.0_381"
+Java(TM) SE Runtime Environment (build 1.8.0_381-b09)
+Java HotSpot(TM) Client VM (build 25.381-b09, mixed mode, sharing)
+Attempting to build version: 'latest' use --rev <version> to override
+Found version
+{
+	"name": "3869",
+	"description": "Jenkins build 3869",
+	"refs": {
+		"BuildData": "221903b51701960ac778d8641b31cebcf411caa8",
+		"Bukkit": "997de31d119e5333a041e7c03b62255eefe9aa6f",
+		"CraftBukkit": "78796c9de6c7c5f64c51a627ee36a7b972f57878",
+		"Spigot": "d2eba2c820b52b742eb542c6d2c4d76e3d743570"
+	},
+	"toolsVersion": 148,
+	"javaVersions": [61, 65]
+}
+
+*** The version you have requested to build requires Java versions between [Java 17, Java 21*], but you are using Java 8
+*** Please rerun BuildTools using an appropriate Java version. For obvious reasons outdated MC versions do not support Java versions that did not exist at their release.

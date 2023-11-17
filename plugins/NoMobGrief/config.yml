@@ -1,0 +1,7 @@
+DisableBlockDamage:
+  CREEPER: true
+  ENDERMAN: true
+  ENDERDRAGON: true
+  GHAST: true
+  TNT: true
+  WITHER: true

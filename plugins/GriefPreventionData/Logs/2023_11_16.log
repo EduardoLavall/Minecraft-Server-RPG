@@ -1,0 +1,8 @@
+20:31 Eddxp     : .//set dirt
+20:40 Eddxp     : ./dh create pinto pinto
+20:41 Eddxp     : ./dh line set <nome> <pagina> <linha> <conteudo>
+20:42 Eddxp     : ./dh line add <holograma> <pagina> <conteudo>
+20:43 Eddxp     : <>
+20:43 Eddxp     : <>
+20:44 Eddxp     : ./skills
+20:57 Eddxp     : ./etree <arvore>

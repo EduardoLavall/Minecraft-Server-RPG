@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 169.254.59.29
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1700179607846
+  login: 1700177077399
+money: '69'
+last-account-name: ChoqueEspacial
+logoutlocation:
+  world: 41e86222-0d3a-44e1-9957-b8218de38b90
+  world-name: hub
+  x: -17.853070122327566
+  y: -60.0
+  z: 31.287264829836623
+  yaw: 169.79132080078125
+  pitch: 28.199359893798828
+lastlocation:
+  world: f39b9010-1a3d-47b6-ad8a-b2d5453de999
+  world-name: world
+  x: 45.72931671431075
+  y: 73.0
+  z: -7.147658235382945
+  yaw: 117.6005859375
+  pitch: 19.799848556518555

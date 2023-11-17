@@ -1,0 +1,47 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+SmashAttack:
+  Cooldown: 10
+  Conditions:
+  - targetwithin 25
+  Skills:
+  - message{cooldown=30;m="<mob.name><&co> VOU TE DESTRUIR SEU VAGABUNDO!"} @PlayersInRadius{r=40}
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - delay 10
+  - damage{amount=6;ignorearmor=false} @PlayersInRadius{r=10}
+  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
+  - effect:explosion @Self
+
+SummonSkeletons:
+  Cooldown: 60
+  Skills:
+  - effect:sound @PlayersInRadius{r=20}
+  - summon{mob=SkeletalMinion;amount=4;noise=5} @Self
+
+SummonSlimes:
+  Cooldown: 0
+  Skills:
+  - effect:sound @PlayersInRadius{r=20}
+  - summon{mob=MiniSlime;amount=10;noise=5} @Self
+
+  
+
+AngrySludgePoison:
+  Cooldown: 10
+  Skills:
+  - potion{type=POISON;lvl=2;duration=100} @PlayersInRadius{r=15}
+  - effect:particles{p=happyVillager;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+
+MiniSlimePoison:
+  Cooldown: 0
+  Skills:
+  - potion{type=POISON;lvl=1;duration=3} @target ~onHit
+  - effect:particles{p=happyVillager;amount=10;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+
+Teste:
+  Cooldown: 1
+  Skills:
+  - arrowvolley{a=20;s=25;v=10;f=50;rd=200} @Target

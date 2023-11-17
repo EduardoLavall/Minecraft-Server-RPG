@@ -1,0 +1,45 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+#RandomSkeletonKing:
+#  MobType: SkeletonKing
+#  Worlds: world
+#  Chance: 0.001
+#  Priority: 1
+#  Action: REPLACE
+#  Conditions:
+#  - outside true
+
+RandomSkeletalKnight:
+  MobType: SkeletalKnight
+  Worlds: world
+  Chance: 0.01 #0.01
+  Action: REPLACE
+  Conditions:
+  - inblock{b=water} false
+
+RandomZumbiGuerreiro:
+  MobType: ZumbiGuerreiro
+  Worlds: world
+  Chance: 0.02 #0.02
+  Action: REPLACE
+  Conditions:
+  - inblock{b=water} false
+
+RandomMiniSlime:
+  MobType: MiniSlime
+  Worlds: world
+  Chance: 0.04 #0.04
+  Action: REPLACE
+  Conditions:
+  - inblock{b=water} false
+
+Randomarcherybones:
+  MobType: archerybones
+  Worlds: world
+  Chance: 0.03 #0.03
+  Action: REPLACE
+  Conditions:
+  - inblock{b=water} false
+  

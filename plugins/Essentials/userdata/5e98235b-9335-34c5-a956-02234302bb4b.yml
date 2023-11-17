@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.196.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1700244310899
+  login: 1700243601937
+money: '931'
+last-account-name: Eddxp
+logoutlocation:
+  world: 41e86222-0d3a-44e1-9957-b8218de38b90
+  world-name: hub
+  x: -13.899296880918515
+  y: -60.0
+  z: -11.550023355431591
+  yaw: 90.03399658203125
+  pitch: 28.748689651489258

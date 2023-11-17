@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "15eadc5a-0653-315a-9315-0d572d3c8ee4",
+    "name": "Thiaguinho",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "e56f9ba2-e4f6-3e9f-805e-bfa0c0d2afff",
+    "name": "leonardokf",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ffb94a51-2093-3cf0-8a92-0887cb60f17d",
+    "name": "AmandinhaAg",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5e98235b-9335-34c5-a956-02234302bb4b",
+    "name": "Eddxp",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a05b4d07-d313-3c0a-84ce-43be29634589",
+    "name": "ChoqueEspacial",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

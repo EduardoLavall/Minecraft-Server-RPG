@@ -1,0 +1,348 @@
+[14:19:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:19:06] [ServerMain/INFO]: Loaded 7 recipes
+[14:19:07] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[14:19:07] [Server thread/INFO]: Loading properties
+[14:19:07] [Server thread/INFO]: This server is running CraftBukkit version 3859-Spigot-94e187b-f70a7b6 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[14:19:07] [Server thread/INFO]: Debug logging is disabled
+[14:19:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:19:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:19:07] [Server thread/INFO]: Default game type: SURVIVAL
+[14:19:07] [Server thread/INFO]: Generating keypair
+[14:19:07] [Server thread/INFO]: Starting Minecraft server on 192.168.196.1:25565
+[14:19:07] [Server thread/INFO]: Using default channel type
+[14:19:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:19:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:19:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:19:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:19:07] [Server thread/INFO]: Preparing level "world"
+[14:19:07] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:19:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:19:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:19:07] [Server thread/INFO]: View Distance: 8
+[14:19:07] [Server thread/INFO]: Simulation Distance: 10
+[14:19:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:19:07] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:19:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:19:07] [Server thread/INFO]: Mob Spawn Range: 6
+[14:19:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:19:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:19:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:19:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:19:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:19:07] [Server thread/INFO]: Max TNT Explosions: 100
+[14:19:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:19:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:19:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:19:08] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:19:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:19:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:19:08] [Server thread/INFO]: View Distance: 8
+[14:19:08] [Server thread/INFO]: Simulation Distance: 10
+[14:19:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:19:08] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:19:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:19:08] [Server thread/INFO]: Mob Spawn Range: 6
+[14:19:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:19:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:19:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:19:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:19:08] [Server thread/INFO]: Max TNT Explosions: 100
+[14:19:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:19:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:19:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:19:08] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:19:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:19:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:19:08] [Server thread/INFO]: View Distance: 8
+[14:19:08] [Server thread/INFO]: Simulation Distance: 10
+[14:19:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:19:08] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:19:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:19:08] [Server thread/INFO]: Mob Spawn Range: 6
+[14:19:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:19:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:19:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:19:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:19:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:19:08] [Server thread/INFO]: Max TNT Explosions: 100
+[14:19:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:19:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:19:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:19:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:19:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[14:19:11] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[14:19:11] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[14:19:11] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[14:19:11] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[14:19:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:19:11] [Worker-Main-9/INFO]: Preparing spawn area: 4%
+[14:19:12] [Server thread/INFO]: Time elapsed: 3517 ms
+[14:19:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:19:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:19:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:19:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:19:13] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[14:19:14] [Worker-Main-8/INFO]: Preparing spawn area: 21%
+[14:19:14] [Server thread/INFO]: Time elapsed: 2244 ms
+[14:19:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:19:15] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[14:19:15] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[14:19:15] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[14:19:16] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[14:19:16] [Server thread/INFO]: Time elapsed: 1974 ms
+[14:19:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:19:16] [Server thread/INFO]: Done (8.729s)! For help, type "help"
+[14:19:58] [User Authenticator #1/INFO]: UUID of player leonardokf is e56f9ba2-e4f6-3e9f-805e-bfa0c0d2afff
+[14:19:58] [Server thread/INFO]: leonardokf joined the game
+[14:19:58] [Server thread/INFO]: leonardokf[/169.254.169.31:60530] logged in with entity id 140 at ([world]758.3736697820641, 64.0, -196.55122144506964)
+[14:20:51] [User Authenticator #2/INFO]: UUID of player Eddxp is 5e98235b-9335-34c5-a956-02234302bb4b
+[14:20:51] [Server thread/INFO]: Eddxp joined the game
+[14:20:51] [Server thread/INFO]: Eddxp[/192.168.196.1:53934] logged in with entity id 471 at ([world]736.4351851198136, 64.5625, -168.71071827590407)
+[14:26:21] [Server thread/INFO]: leonardokf issued server command: /tp @s 2281 -2.5 210
+[14:26:21] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 2281.500000, -2.500000, 210.500000]
+[14:26:39] [Server thread/INFO]: leonardokf issued server command: /tp @s 646 11.5 -383
+[14:26:39] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 646.500000, 11.500000, -382.500000]
+[14:35:35] [Server thread/INFO]: leonardokf issued server command: /tp @s 729 64.5 -168
+[14:35:35] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 729.500000, 64.500000, -167.500000]
+[14:37:21] [Server thread/INFO]: leonardokf issued server command: /tp @s 795 97.5 -219
+[14:37:21] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 795.500000, 97.500000, -218.500000]
+[14:41:46] [Async Chat Thread - #0/INFO]: [Not Secure] <leonardokf> xaero-waypoint:mob trap:M:795:97:-219:1:false:0:Internal-overworld-waypoints
+[14:42:08] [Server thread/INFO]: Eddxp issued server command: /tp @s 795 97.5 -219
+[14:42:08] [Server thread/INFO]: [Eddxp: Teleported Eddxp to 795.500000, 97.500000, -218.500000]
+[14:42:08] [Server thread/WARN]: Eddxp moved too quickly! 67.26108757643601,34.5,-5.438886913633212
+[14:45:40] [Server thread/INFO]: Eddxp issued server command: /tp @s 1352 66.5 -1128
+[14:45:40] [Server thread/INFO]: [Eddxp: Teleported Eddxp to 1352.500000, 66.500000, -1127.500000]
+[14:47:54] [Server thread/INFO]: leonardokf issued server command: /tp @s 795 97.5 -219
+[14:47:54] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 795.500000, 97.500000, -218.500000]
+[14:47:57] [Server thread/INFO]: leonardokf issued server command: /tp @s 729 64.5 -168
+[14:47:57] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 729.500000, 64.500000, -167.500000]
+[14:49:03] [Server thread/INFO]: leonardokf issued server command: /tp @s 795 97.5 -219
+[14:49:03] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 795.500000, 97.500000, -218.500000]
+[14:49:52] [Server thread/INFO]: leonardokf issued server command: /tp @s 729 64.5 -168
+[14:49:52] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 729.500000, 64.500000, -167.500000]
+[14:51:02] [Server thread/INFO]: leonardokf issued server command: /tp @s 795 97.5 -219
+[14:51:02] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 795.500000, 97.500000, -218.500000]
+[14:51:12] [Server thread/INFO]: Eddxp issued server command: /tp @s 795 97.5 -219
+[14:51:12] [Server thread/INFO]: [Eddxp: Teleported Eddxp to 795.500000, 97.500000, -218.500000]
+[14:51:12] [Server thread/WARN]: Eddxp moved too quickly! -587.5213281888769,55.5,879.099975497287
+[14:54:48] [Server thread/INFO]: Eddxp issued server command: /tp @s 795 97.5 -219
+[14:54:49] [Server thread/INFO]: [Eddxp: Teleported Eddxp to 795.500000, 97.500000, -218.500000]
+[14:54:56] [Server thread/INFO]: Eddxp issued server command: /tp @s 1352 66.5 -1128
+[14:54:56] [Server thread/INFO]: [Eddxp: Teleported Eddxp to 1352.500000, 66.500000, -1127.500000]
+[14:56:25] [Server thread/INFO]: leonardokf issued server command: /tp @s 729 64.5 -168
+[14:56:25] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 729.500000, 64.500000, -167.500000]
+[14:56:38] [Server thread/INFO]: leonardokf issued server command: /tp @s 795 97.5 -219
+[14:56:38] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 795.500000, 97.500000, -218.500000]
+[14:58:14] [Async Chat Thread - #2/INFO]: [Not Secure] <leonardokf> xaero-waypoint:mobtrap:M:798:104:-215:9:false:0:Internal-overworld-waypoints
+[15:00:18] [Server thread/INFO]: Eddxp issued server command: /tp @s 798 104.5 -215
+[15:00:18] [Server thread/INFO]: [Eddxp: Teleported Eddxp to 798.500000, 104.500000, -214.500000]
+[15:00:18] [Server thread/WARN]: Eddxp moved too quickly! -594.9054159557493,73.5,900.9413778186399
+[15:00:41] [Server thread/INFO]: Eddxp lost connection: Disconnected
+[15:00:41] [Server thread/INFO]: Eddxp left the game
+[15:02:52] [Server thread/INFO]: leonardokf issued server command: /tp @s 729 64.5 -168
+[15:02:52] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 729.500000, 64.500000, -167.500000]
+[15:03:04] [Server thread/INFO]: leonardokf issued server command: /tp @s 798 104.5 -215
+[15:03:04] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 798.500000, 104.500000, -214.500000]
+[15:03:24] [Server thread/INFO]: leonardokf issued server command: /tp @s 798 104.5 -215
+[15:03:24] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 798.500000, 104.500000, -214.500000]
+[15:04:17] [Server thread/INFO]: leonardokf issued server command: /tp @s 798 104.5 -215
+[15:04:17] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 798.500000, 104.500000, -214.500000]
+[15:04:29] [Server thread/INFO]: leonardokf issued server command: /tp @s 798 104.5 -215
+[15:04:29] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 798.500000, 104.500000, -214.500000]
+[15:04:41] [Server thread/INFO]: leonardokf issued server command: /tp @s 729 64.5 -168
+[15:04:41] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 729.500000, 64.500000, -167.500000]
+[15:06:40] [Server thread/INFO]: [Not Secure] [Server] tira q eu vo caga
+[16:10:57] [Server thread/INFO]: leonardokf issued server command: /tp @s 267 -8.5 78
+[16:10:57] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 267.500000, -8.500000, 78.500000]
+[16:11:57] [Server thread/INFO]: leonardokf issued server command: /tp @s 769 24.5 -222
+[16:11:58] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 769.500000, 24.500000, -221.500000]
+[16:17:19] [Server thread/INFO]: leonardokf issued server command: /tp @s 798 104.5 -215
+[16:17:19] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 798.500000, 104.500000, -214.500000]
+[16:19:57] [Server thread/INFO]: leonardokf issued server command: /tp @s 729 64.5 -168
+[16:19:57] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 729.500000, 64.500000, -167.500000]
+[16:20:55] [Server thread/INFO]: leonardokf issued server command: /tp @s 798 104.5 -215
+[16:20:55] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 798.500000, 104.500000, -214.500000]
+[16:32:10] [Server thread/INFO]: leonardokf issued server command: /tp @s 729 64.5 -168
+[16:32:10] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 729.500000, 64.500000, -167.500000]
+[16:34:19] [Server thread/INFO]: leonardokf issued server command: /tp @s 798 104.5 -215
+[16:34:19] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 798.500000, 104.500000, -214.500000]
+[16:34:41] [Server thread/INFO]: leonardokf issued server command: /tp @s 729 64.5 -168
+[16:34:41] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 729.500000, 64.500000, -167.500000]
+[16:35:14] [Server thread/INFO]: leonardokf issued server command: /tp @s 798 104.5 -215
+[16:35:14] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 798.500000, 104.500000, -214.500000]
+[16:36:25] [Server thread/INFO]: leonardokf issued server command: /tp @s 729 64.5 -168
+[16:36:25] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 729.500000, 64.500000, -167.500000]
+[16:49:55] [Server thread/INFO]: leonardokf issued server command: /tp @s 729 64.5 -168
+[16:49:55] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 729.500000, 64.500000, -167.500000]
+[17:01:03] [Server thread/INFO]: leonardokf issued server command: /tp @s 729 64.5 -168
+[17:01:03] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 729.500000, 64.500000, -167.500000]
+[17:08:48] [Server thread/INFO]: leonardokf issued server command: /tp @s 794 182.5 -221
+[17:08:48] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 794.500000, 182.500000, -220.500000]
+[17:09:24] [Server thread/INFO]: leonardokf issued server command: /tp @s 785 72.5 -218
+[17:09:24] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 785.500000, 72.500000, -217.500000]
+[17:13:47] [Server thread/INFO]: leonardokf issued server command: /tp @s 794 182.5 -221
+[17:13:47] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 794.500000, 182.500000, -220.500000]
+[17:23:06] [Server thread/INFO]: leonardokf issued server command: /tp @s 785 72.5 -218
+[17:23:06] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 785.500000, 72.500000, -217.500000]
+[17:26:24] [Server thread/INFO]: leonardokf issued server command: /tp @s 90 71.5 -167
+[17:26:24] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 90.500000, 71.500000, -166.500000]
+[17:26:56] [User Authenticator #3/INFO]: UUID of player Eddxp is 5e98235b-9335-34c5-a956-02234302bb4b
+[17:26:56] [Server thread/INFO]: Eddxp joined the game
+[17:26:56] [Server thread/INFO]: Eddxp[/192.168.196.1:52474] logged in with entity id 30478 at ([world]800.862801084441, 99.0, -214.16173696728322)
+[17:27:47] [Server thread/INFO]: Eddxp issued server command: /tp @s 733 64.5 -171
+[17:27:47] [Server thread/INFO]: [Eddxp: Teleported Eddxp to 733.500000, 64.500000, -170.500000]
+[17:27:57] [Async Chat Thread - #4/INFO]: [Not Secure] <Eddxp> ta ai?
+[17:28:44] [Server thread/INFO]: Eddxp lost connection: Disconnected
+[17:28:44] [Server thread/INFO]: Eddxp left the game
+[17:33:41] [Server thread/INFO]: leonardokf has made the advancement [Hidden in the Depths]
+[17:46:50] [Server thread/INFO]: leonardokf issued server command: /tp @s 68 57.5 -27
+[17:46:50] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 68.500000, 57.500000, -26.500000]
+[17:52:57] [Server thread/INFO]: leonardokf issued server command: /tp @s 105 17.5 -202
+[17:52:57] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 105.500000, 17.500000, -201.500000]
+[18:00:43] [Server thread/INFO]: leonardokf issued server command: /tp @s 68 57.5 -27
+[18:00:43] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 68.500000, 57.500000, -26.500000]
+[18:20:34] [Server thread/INFO]: leonardokf issued server command: /tp @s 785 72.5 -218
+[18:20:34] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 785.500000, 72.500000, -217.500000]
+[18:21:43] [Server thread/INFO]: leonardokf issued server command: /tp @s 794 182.5 -221
+[18:21:43] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 794.500000, 182.500000, -220.500000]
+[18:22:26] [Server thread/INFO]: leonardokf issued server command: /tp @s 785 72.5 -218
+[18:22:26] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 785.500000, 72.500000, -217.500000]
+[18:24:45] [Server thread/INFO]: leonardokf issued server command: /tp @s 785 72.5 -218
+[18:24:45] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 785.500000, 72.500000, -217.500000]
+[18:24:48] [Server thread/INFO]: leonardokf issued server command: /tp @s 794 182.5 -221
+[18:24:48] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 794.500000, 182.500000, -220.500000]
+[18:27:27] [Server thread/INFO]: leonardokf issued server command: /tp @s 785 72.5 -218
+[18:27:27] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 785.500000, 72.500000, -217.500000]
+[18:32:24] [Server thread/INFO]: leonardokf issued server command: /tp @s 794 182.5 -221
+[18:32:24] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 794.500000, 182.500000, -220.500000]
+[18:46:28] [Server thread/INFO]: leonardokf lost connection: Disconnected
+[18:46:28] [Server thread/INFO]: leonardokf left the game
+[18:47:14] [User Authenticator #4/INFO]: UUID of player leonardokf is e56f9ba2-e4f6-3e9f-805e-bfa0c0d2afff
+[18:47:14] [Server thread/INFO]: leonardokf joined the game
+[18:47:14] [Server thread/INFO]: leonardokf[/169.254.169.31:61580] logged in with entity id 41132 at ([world]795.5023201157085, 182.0, -219.8845943660887)
+[18:47:44] [Server thread/INFO]: leonardokf lost connection: Timed out
+[18:47:44] [Server thread/INFO]: leonardokf left the game
+[18:48:43] [User Authenticator #5/INFO]: UUID of player leonardokf is e56f9ba2-e4f6-3e9f-805e-bfa0c0d2afff
+[18:48:43] [Server thread/INFO]: leonardokf joined the game
+[18:48:43] [Server thread/INFO]: leonardokf[/169.254.169.31:61598] logged in with entity id 41334 at ([world]795.5023201157085, 182.0, -219.8845943660887)
+[18:48:51] [Server thread/INFO]: leonardokf issued server command: /tp @s 785 72.5 -218
+[18:48:51] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 785.500000, 72.500000, -217.500000]
+[18:51:30] [Server thread/INFO]: leonardokf issued server command: /tp @s 729 64.5 -168
+[18:51:30] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 729.500000, 64.500000, -167.500000]
+[18:52:10] [Server thread/INFO]: leonardokf has made the advancement [Enchanter]
+[19:03:25] [Server thread/INFO]: leonardokf issued server command: /tp @s 794 182.5 -221
+[19:03:25] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 794.500000, 182.500000, -220.500000]
+[19:05:38] [Server thread/INFO]: leonardokf issued server command: /tp @s 794 182.5 -221
+[19:05:38] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 794.500000, 182.500000, -220.500000]
+[19:05:41] [Server thread/INFO]: leonardokf issued server command: /tp @s 785 72.5 -218
+[19:05:41] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 785.500000, 72.500000, -217.500000]
+[19:06:24] [Server thread/INFO]: leonardokf was blown up by Creeper
+[19:23:08] [Server thread/INFO]: leonardokf lost connection: Disconnected
+[19:23:08] [Server thread/INFO]: leonardokf left the game
+[22:46:31] [User Authenticator #6/INFO]: UUID of player leonardokf is e56f9ba2-e4f6-3e9f-805e-bfa0c0d2afff
+[22:46:31] [Server thread/INFO]: leonardokf joined the game
+[22:46:31] [Server thread/INFO]: leonardokf[/169.254.169.31:54285] logged in with entity id 47062 at ([world]734.180104590097, 64.0, -169.21254017395108)
+[22:47:06] [User Authenticator #7/INFO]: UUID of player Eddxp is 5e98235b-9335-34c5-a956-02234302bb4b
+[22:47:06] [Server thread/INFO]: Eddxp joined the game
+[22:47:06] [Server thread/INFO]: Eddxp[/192.168.196.1:53350] logged in with entity id 47362 at ([world]732.494062556683, 64.0, -168.5214045692653)
+[22:51:31] [Server thread/INFO]: leonardokf issued server command: /tp @s 105 17.5 -202
+[22:51:31] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 105.500000, 17.500000, -201.500000]
+[22:51:40] [Async Chat Thread - #7/INFO]: [Not Secure] <leonardokf> xaero-waypoint:mina de netherite:M:105:17:-202:8:false:0:Internal-the-nether-waypoints
+[22:56:05] [Server thread/INFO]: Eddxp issued server command: /tp leonardokf
+[22:56:05] [Server thread/INFO]: [Eddxp: Teleported Eddxp to leonardokf]
+[23:07:41] [Server thread/INFO]: Eddxp has made the advancement [Hidden in the Depths]
+[23:12:46] [Async Chat Thread - #9/INFO]: [Not Secure] <leonardokf> xaero-waypoint:portal:P:68:57:-27:9:false:0:Internal-the-nether-waypoints
+[23:12:53] [Server thread/INFO]: leonardokf issued server command: /tp @s 68 57.5 -27
+[23:12:53] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 68.500000, 57.500000, -26.500000]
+[23:13:04] [Server thread/INFO]: Eddxp issued server command: /tp @s 68 57.5 -27
+[23:13:04] [Server thread/INFO]: [Eddxp: Teleported Eddxp to 68.500000, 57.500000, -26.500000]
+[23:13:04] [Server thread/WARN]: Eddxp moved too quickly! -73.0018755844909,42.5,133.95988514952697
+[23:19:12] [Server thread/INFO]: leonardokf issued server command: /tp @s 798 104.5 -215
+[23:19:12] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 798.500000, 104.500000, -214.500000]
+[23:20:07] [Server thread/INFO]: leonardokf issued server command: /tp @s 729 64.5 -168
+[23:20:07] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 729.500000, 64.500000, -167.500000]
+[23:20:52] [Server thread/INFO]: leonardokf issued server command: /tp @s 90 71.5 -167
+[23:20:52] [Server thread/INFO]: [leonardokf: Teleported leonardokf to 90.500000, 71.500000, -166.500000]
+[23:21:25] [Server thread/INFO]: Eddxp issued server command: /tp @s 865 65.5 -421
+[23:21:25] [Server thread/INFO]: [Eddxp: Teleported Eddxp to 865.500000, 65.500000, -420.500000]
+[23:24:01] [Server thread/INFO]: Eddxp issued server command: /tp @s 733 64.5 -171
+[23:24:01] [Server thread/INFO]: [Eddxp: Teleported Eddxp to 733.500000, 64.500000, -170.500000]
+[23:24:01] [Server thread/WARN]: Eddxp moved too quickly! -133.2919119034999,-3.4375,221.2538082106107
+[23:27:51] [Server thread/INFO]: Eddxp issued server command: /tp @s 865 65.5 -421
+[23:27:51] [Server thread/INFO]: [Eddxp: Teleported Eddxp to 865.500000, 65.500000, -420.500000]
+[23:27:51] [Server thread/WARN]: Eddxp moved too quickly! 136.8058615466805,1.5,-250.84797074203894
+[23:29:33] [Server thread/INFO]: Eddxp issued server command: /tp @s 733 64.5 -171
+[23:29:33] [Server thread/INFO]: [Eddxp: Teleported Eddxp to 733.500000, 64.500000, -170.500000]
+[23:29:33] [Server thread/WARN]: Eddxp moved too quickly! -123.19999998807907,-2.5,301.98536600403077
+[23:30:06] [Server thread/INFO]: Eddxp issued server command: /tp @s 865 65.5 -421
+[23:30:06] [Server thread/INFO]: [Eddxp: Teleported Eddxp to 865.500000, 65.500000, -420.500000]
+[23:30:06] [Server thread/WARN]: Eddxp moved too quickly! 134.19526674682106,2.5,-242.0767136711143
+[23:35:31] [Async Chat Thread - #10/INFO]: [Not Secure] <leonardokf> xaero-waypoint:soul sand:S:-219:69:-212:8:false:0:Internal-the-nether-waypoints
+[23:36:30] [Server thread/INFO]: Eddxp issued server command: /
+[23:36:38] [Server thread/INFO]: Eddxp issued server command: /tp @s 733 64.5 -171
+[23:36:38] [Server thread/INFO]: [Eddxp: Teleported Eddxp to 733.500000, 64.500000, -170.500000]
+[23:36:38] [Server thread/WARN]: Eddxp moved too quickly! -150.1084692530393,-7.5,229.1661355642829
+[23:36:56] [Server thread/INFO]: leonardokf has completed the challenge [Return to Sender]
+[23:39:11] [Async Chat Thread - #12/INFO]: [Not Secure] <Eddxp> chega ai leo
+[23:39:13] [Async Chat Thread - #13/INFO]: [Not Secure] <Eddxp> fica na call
+[23:39:22] [Async Chat Thread - #12/INFO]: [Not Secure] <Eddxp> só falta tu pra fechar time
+[23:39:25] [Async Chat Thread - #13/INFO]: [Not Secure] <Eddxp> bora uma
+[23:40:17] [Server thread/INFO]: Eddxp lost connection: Disconnected
+[23:40:17] [Server thread/INFO]: Eddxp left the game
+[23:41:38] [Server thread/INFO]: leonardokf lost connection: Disconnected
+[23:41:38] [Server thread/INFO]: leonardokf left the game

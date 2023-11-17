@@ -1,0 +1,1557 @@
+[12:51:56] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:51:57] [ServerMain/INFO]: Loaded 7 recipes
+[12:51:58] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[12:51:58] [Server thread/INFO]: Loading properties
+[12:51:58] [Server thread/INFO]: This server is running CraftBukkit version 3859-Spigot-94e187b-f70a7b6 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[12:51:58] [Server thread/INFO]: Debug logging is disabled
+[12:51:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:51:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:51:58] [Server thread/INFO]: Default game type: SURVIVAL
+[12:51:58] [Server thread/INFO]: Generating keypair
+[12:51:58] [Server thread/INFO]: Starting Minecraft server on 192.168.196.1:25565
+[12:51:59] [Server thread/INFO]: Using default channel type
+[12:51:59] [Server thread/ERROR]: Could not load 'plugins\orebfuscator-plugin-5.4.2.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency ProtocolLib. Please download and install ProtocolLib to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:433) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:219) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[12:51:59] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[12:52:02] [Server thread/WARN]: Legacy plugin NoMobGrief v1.0.0 does not specify an api-version.
+[12:52:02] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.108
+[12:52:02] [Server thread/INFO]: [TerraformGenerator] Loading TerraformGenerator v11.1.1
+[12:52:02] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.5
+[12:52:02] [Server thread/INFO]: [SimpleHealthbars2] Loading SimpleHealthbars2 v0.3.0
+[12:52:02] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.1
+[12:52:02] [Server thread/INFO]: [NoMobGrief] Loading NoMobGrief v1.0.0
+[12:52:02] [Server thread/INFO]: [TAB] Loading TAB v4.0.9
+[12:52:02] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[12:52:02] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[12:52:02] [Server thread/INFO]: [AureliumSkills] Loading AureliumSkills vBeta 1.3.23
+[12:52:02] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.33-SNAPSHOT (build 3262)
+[12:52:02] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
+[12:52:03] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3d69d859]
+[12:52:03] [Server thread/INFO]: [MythicMobs] Loading MythicMobs v5.4.1-${CI_COMMIT_SHORT_SHA}
+[12:52:03] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[12:52:03] [Server thread/INFO]: [MythicMobs] §4M§6y§6t§6h§2i§2c§2 §3E§3n§1a§1b§1l§5e§5d§4![0m
+[12:52:03] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+21-c68b277
+[12:52:03] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.1.4
+[12:52:03] [Server thread/INFO]: [BeautyQuests] Loading BeautyQuests v1.0_BUILD383
+[12:52:03] [Server thread/INFO]: [QuickShop] Loading QuickShop v1.13-0.9.39-beta
+[12:52:03] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.18.1
+[12:52:03] [Server thread/INFO]: [AureliumMobs] Loading AureliumMobs v1.18
+[12:52:03] [Server thread/INFO]: [SignShop] Loading SignShop v4.0.0
+[12:52:03] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.108
+[12:52:04] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[12:52:04] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.108[m
+[12:52:04] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[12:52:04] [Server thread/INFO]: [m
+[12:52:04] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:52:04] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[12:52:04] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[12:52:04] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[12:52:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1458ms)
+[12:52:04] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v11.1.1
+[12:52:05] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized[m
+[12:52:05] [Server thread/INFO]: [TerraformGenerator] [0;32;1mbStats Metrics enabled.[m
+[12:52:05] [Server thread/INFO]: [TerraformGenerator] Detected version: v1_20_R1, number: 20.1[m
+[12:52:05] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[12:52:05] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.0-dev+21-c68b277 which is not a depend or softdepend of this plugin.
+[12:52:05] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[12:52:05] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[12:52:05] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[12:52:05] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[12:52:05] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
+[12:52:05] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[12:52:05] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[12:52:05] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[12:52:06] [Server thread/INFO]: [WorldEdit] ====================================================
+[12:52:06] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[12:52:06] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[12:52:06] [Server thread/INFO]: [WorldEdit]   
+[12:52:06] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[12:52:06] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[12:52:06] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[12:52:06] [Server thread/INFO]: [WorldEdit]   
+[12:52:06] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[12:52:06] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[12:52:06] [Server thread/INFO]: [WorldEdit]   
+[12:52:06] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[12:52:06] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[12:52:06] [Server thread/INFO]: [WorldEdit]   
+[12:52:06] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[12:52:06] [Server thread/INFO]: [WorldEdit] ====================================================
+[12:52:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:52:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:52:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:52:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:52:06] [Server thread/INFO]: Preparing level "world"
+[12:52:06] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:52:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:52:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:52:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:52:06] [Server thread/INFO]: Simulation Distance: 5
+[12:52:06] [Server thread/INFO]: View Distance: 7
+[12:52:06] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:52:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:52:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:52:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:52:06] [Server thread/INFO]: Mob Spawn Range: 6
+[12:52:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:52:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:52:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[12:52:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:52:06] [Server thread/INFO]: Max TNT Explosions: 100
+[12:52:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:52:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:52:06] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... [m
+[12:52:06] [Server thread/INFO]: [TerraformGenerator] [0;32;1mInjection success! Proceeding with generation.[m
+[12:52:06] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:52:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:52:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:52:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:52:06] [Server thread/INFO]: Simulation Distance: 5
+[12:52:06] [Server thread/INFO]: View Distance: 7
+[12:52:06] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:52:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:52:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:52:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:52:06] [Server thread/INFO]: Mob Spawn Range: 6
+[12:52:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:52:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:52:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[12:52:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:52:06] [Server thread/INFO]: Max TNT Explosions: 100
+[12:52:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:52:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:52:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:52:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:52:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:52:07] [Server thread/INFO]: Simulation Distance: 5
+[12:52:07] [Server thread/INFO]: View Distance: 7
+[12:52:07] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:52:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:52:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:52:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:52:07] [Server thread/INFO]: Mob Spawn Range: 6
+[12:52:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:52:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:52:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[12:52:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:52:07] [Server thread/INFO]: Max TNT Explosions: 100
+[12:52:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:52:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:52:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:52:10] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[12:52:10] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[12:52:10] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[12:52:10] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[12:52:10] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[12:52:10] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:52:10] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:52:10] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:52:11] [Worker-Main-3/INFO]: Preparing spawn area: 36%
+[12:52:11] [Server thread/INFO]: Time elapsed: 4439 ms
+[12:52:11] [Server thread/INFO]: [TerraformGenerator] world loaded.[m
+[12:52:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:52:13] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[12:52:13] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:52:13] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:52:13] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[12:52:13] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:52:14] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[12:52:14] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:52:15] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[12:52:15] [Server thread/INFO]: Time elapsed: 3800 ms
+[12:52:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:52:17] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:52:17] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[12:52:17] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[12:52:17] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[12:52:17] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[12:52:18] [Server thread/INFO]: Time elapsed: 2427 ms
+[12:52:18] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.5
+[12:52:18] [Server thread/INFO]: [SimpleHealthbars2] Enabling SimpleHealthbars2 v0.3.0
+[12:52:18] [Server thread/INFO]: [SimpleHealthbars2] SimpleHealthbars2 version 0.3.0 enabled!
+[12:52:18] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.1
+[12:52:18] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[12:52:18] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[12:52:18] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[12:52:18] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[12:52:18] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[12:52:18] [Server thread/INFO]: [NoMobGrief] Enabling NoMobGrief v1.0.0
+[12:52:18] [Server thread/INFO]: [TAB] Enabling TAB v4.0.9
+[12:52:18] [Server thread/INFO]: [TAB] [38;2;85;255;85mEnabled in 136ms[m
+[12:52:18] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[12:52:18] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[12:52:18] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[12:52:18] [Server thread/INFO]: -------- World Settings For [hub] --------
+[12:52:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:52:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:52:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:52:18] [Server thread/INFO]: Simulation Distance: 5
+[12:52:18] [Server thread/INFO]: View Distance: 7
+[12:52:18] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:52:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:52:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:52:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:52:18] [Server thread/INFO]: Mob Spawn Range: 6
+[12:52:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:52:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:52:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[12:52:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:52:18] [Server thread/INFO]: Max TNT Explosions: 100
+[12:52:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:52:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:52:18] [Server thread/INFO]: Preparing start region for dimension minecraft:hub
+[12:52:19] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:52:19] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:52:19] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:52:20] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:52:20] [Server thread/INFO]: Time elapsed: 1949 ms
+[12:52:20] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[12:52:20] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[12:52:20] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[12:52:20] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.23
+[12:52:20] [Server thread/INFO]: [AureliumSkills] Vault Support Enabled!
+[12:52:20] [Server thread/INFO]: [AureliumSkills] Loaded 194 config options in 0 ms
+[12:52:20] [Server thread/INFO]: [AureliumSkills] Loaded 312 sources and 10 tags in 12ms
+[12:52:21] [Server thread/INFO]: [AureliumSkills] Loading languages...
+[12:52:21] [Server thread/INFO]: [AureliumSkills] Loaded 17 languages in 743ms
+[12:52:21] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
+[12:52:21] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 2ms
+[12:52:22] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
+[12:52:22] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
+[12:52:22] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
+[12:52:22] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
+[12:52:22] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_20_R1! Trying to find NMS support
+[12:52:22] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[12:52:22] [Server thread/INFO]: [NBTAPI] Using the plugin 'AureliumSkills' to create a bStats instance!
+[12:52:22] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.33-SNAPSHOT (build 3262)
+[12:52:22] [Server thread/INFO]: [Citizens] Loading external libraries
+[12:52:22] [Server thread/ERROR]: [Citizens] v2.0.33-SNAPSHOT (build 3262) is not compatible with Minecraft v1_20_R1 - try upgrading Minecraft or Citizens. Disabling...
+[12:52:22] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.33-SNAPSHOT (build 3262)
+[12:52:22] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.4.1-${CI_COMMIT_SHORT_SHA}
+[12:52:22] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Spigot (MC: 1.20.1)...[0m
+[12:52:22] [Server thread/INFO]: [MythicMobs] The server is running Spigot; disabled PaperSpigot exclusive functionality[0m
+[12:52:23] [Server thread/WARN]: [MythicMobs] Loaded class me.ryanhamshire.GriefPrevention.GriefPrevention from GriefPrevention v16.18.1 which is not a depend or softdepend of this plugin.
+[12:52:23] [Server thread/INFO]: [MythicMobs] Mythic GriefPrevention Support has been enabled![0m
+[12:52:23] [Server thread/INFO]: [MythicMobs] Mythic Vault Support has been enabled![0m
+[12:52:23] [Server thread/INFO]: [MythicMobs] Base directory C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\SavedData
+[12:52:23] [Server thread/INFO]: [MythicMobs] Module directory C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\SavedData\worlds
+[12:52:24] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat ATTACK_DAMAGE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat ATTACK_SPEED from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat BONUS_DAMAGE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat CRITICAL_STRIKE_CHANCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat CRITICAL_STRIKE_DAMAGE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat CRITICAL_STRIKE_RESILIENCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat DAMAGE_REDUCTION from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat DEFENSE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat DODGE_CHANCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat DODGE_NEGATION from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat HEALTH from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat HEALTH_REGENERATION from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat LIFESTEAL_CHANCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat LIFESTEAL_POWER from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat MOVEMENT_SPEED from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_CHANCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_NEGATION from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_POWER from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_COUNTERATTACK from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat ARMOR_GENERIC from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat ARMOR_BLUNT from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat ARMOR_SHARP from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat DAMAGE_BLUNT from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat DAMAGE_SHARP from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat FIRE_RESISTANCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading stat SPEED from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
+[12:52:25] [Server thread/ERROR]: [MythicMobs] [31mBadly configured enchantment[37m
+[12:52:25] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 10 mobs.[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 6 skills.[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
+[12:52:25] [Server thread/ERROR]: [MythicMobs] Plugin MythicMobs v5.4.1-${CI_COMMIT_SHORT_SHA} has failed to register events for class io.lumine.mythic.bukkit.adapters.BukkitSkillTriggers because com/destroystokyo/paper/event/entity/CreeperIgniteEvent does not exist.
+[12:52:25] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics[0m
+[12:52:25] [Server thread/INFO]: [MythicMobs] [32m✓ MythicMobs v5.4.1 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded![0m[0m
+[12:52:25] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+21-c68b277
+[12:52:25] [Server thread/ERROR]: You are running an unsupported server version!
+[12:52:25] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[12:52:25] [Server thread/INFO]: No kits found to migrate.
+[12:52:25] [Server thread/INFO]: Loaded 39094 items from items.json.
+[12:52:25] [Server thread/INFO]: Using locale pt_BR
+[12:52:25] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[12:52:25] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[12:52:25] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[12:52:25] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[12:52:25] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.1.4
+[12:52:25] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using lang-en.yml as language file.[m
+[12:52:25] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 16 section configs from /sections/[m
+[12:52:25] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 16 shop configs from /shops/[m
+[12:52:25] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Updating Shop settings...[m
+[12:52:25] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Successfully hooked into Vault[m
+[12:52:25] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 1 economy provider(s) for all 14 shop sections.[m
+[12:52:25] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using minecraft version 1.20.1...[m
+[12:52:25] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Spawner provider set to AUTO in config[m
+[12:52:25] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Automatically searching for compatible spawner provider....[m
+[12:52:25] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Failed to automatically find compatible spawner provider, using default...[m
+[12:52:25] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Debug mode is enabled.[m
+[12:52:25] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Loading all items...[m
+[12:52:25] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Initialized - Took 233ms to complete[m
+[12:52:25] [Server thread/INFO]: [BeautyQuests] Enabling BeautyQuests v1.0_BUILD383
+[12:52:25] [Server thread/INFO]: [BeautyQuests] ------------ BeautyQuests ------------
+[12:52:25] [Server thread/WARN]: [BeautyQuests] You are not running the Paper software.
+It is highly recommended to use it for extended features and more stability.
+[12:52:25] [Server thread/INFO]: [BeautyQuests] Loaded valid Minecraft version 1_20_R1.
+[12:52:25] [Server thread/INFO]: [BeautyQuests] Loaded language en_US (0.02s)!
+[12:52:25] [Server thread/INFO]: [BeautyQuests] Loaded start particles: REDSTONE in shape POINT with color R255 G255 B0
+[12:52:25] [Server thread/INFO]: [BeautyQuests] Loaded talk particles: VILLAGER_HAPPY in shape BAR
+[12:52:25] [Server thread/INFO]: [BeautyQuests] Loaded next particles: SMOKE_NORMAL in shape SPOT
+[12:52:26] [Server thread/INFO]: [QuickShop] Enabling QuickShop v1.13-0.9.39-beta
+[12:52:26] [Server thread/INFO]: [QuickShop] Found permission provider.
+[12:52:26] [Server thread/INFO]: [QuickShop] 7 is not a valid material.  Check your spelling or ID
+[12:52:26] [Server thread/WARN]: Invalid custom item name definition {NETHER_STALK;Nether Wart;Nether Wart} Error: Invalid material: NETHER_STALK
+[12:52:26] [Server thread/INFO]: [QuickShop] Limit cfg found...
+[12:52:26] [Server thread/INFO]: [QuickShop] Limits.use: false
+[12:52:26] [Server thread/INFO]: [QuickShop] {quickshop=0, quickshop.vip=20}
+[12:52:26] [Server thread/INFO]: [QuickShop] Loading shops from database...
+[12:52:26] [Server thread/INFO]: [QuickShop] Loaded 0 shops.
+[12:52:26] [Server thread/INFO]: Cleaning purchase messages from database that are over a week old...
+[12:52:26] [Server thread/INFO]: [QuickShop] Registering Listeners
+[12:52:26] [Server thread/INFO]: [QuickShop] QuickShop loaded!
+[12:52:26] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.1
+[12:52:26] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[12:52:26] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
+[12:52:26] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[12:52:26] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[12:52:26] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[12:52:26] [Server thread/INFO]: [AureliumMobs] Enabling AureliumMobs v1.18
+[12:52:26] [Server thread/INFO]: [SignShop] Enabling SignShop v4.0.0
+[12:52:26] [Server thread/INFO]: [SignShop] Checking data version.
+[12:52:26] [Server thread/INFO]: [SignShop] Your data is current.
+[12:52:26] [Server thread/INFO]: [SignShop] Loading and validating shops, please wait...
+[12:52:26] [Server thread/INFO]: [SignShop] Loaded zero potential shops.
+[12:52:26] [Server thread/INFO]: [SignShop] Thank you for enabling metrics!
+[12:52:26] [Server thread/INFO]: [SignShop] v4.0.0 Enabled
+[12:52:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:52:26] [Server thread/INFO]: Done (20.623s)! For help, type "help"
+[12:52:26] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[12:52:26] [Craft Scheduler Thread - 1/INFO]: §6Buscando informações da versão...
+[12:52:26] [Craft Scheduler Thread - 0/INFO]: [DecentHolograms] Loading holograms... 
+[12:52:26] [Craft Scheduler Thread - 0/INFO]: [DecentHolograms] Loaded 2 holograms!
+[12:52:26] [Server thread/INFO]: [BeautyQuests] 0 quests loaded (0.017s)!
+[12:52:26] [Server thread/INFO]: [BeautyQuests] Periodic saves task started (18000 ticks). Task ID: 65
+[12:52:26] [Craft Scheduler Thread - 8/INFO]: [Vault] Checking for Updates ... 
+[12:52:27] [Craft Scheduler Thread - 8/WARN]: [Vault] No files found, or Feed URL is bad.
+[12:52:27] [Craft Scheduler Thread - 8/INFO]: [Vault] No new version available
+[12:52:28] [Server thread/WARN]: [BeautyQuests] ********************************************************
+[12:52:28] [Server thread/WARN]: [BeautyQuests] * There is a new version of BeautyQuests available!
+[12:52:28] [Server thread/WARN]: [BeautyQuests] *  
+[12:52:28] [Server thread/WARN]: [BeautyQuests] * Your version:   383
+[12:52:28] [Server thread/WARN]: [BeautyQuests] * Latest version: 386
+[12:52:28] [Server thread/WARN]: [BeautyQuests] *  
+[12:52:28] [Server thread/WARN]: [BeautyQuests] * Please update to the newest version.
+[12:52:28] [Server thread/WARN]: [BeautyQuests] *  
+[12:52:28] [Server thread/WARN]: [BeautyQuests] * Download:
+[12:52:28] [Server thread/WARN]: [BeautyQuests] *   https://ci.codemc.io/job/SkytAsul/job/BeautyQuests
+[12:52:28] [Server thread/WARN]: [BeautyQuests] ********************************************************
+[13:04:33] [User Authenticator #1/INFO]: UUID of player Eddxp is 5e98235b-9335-34c5-a956-02234302bb4b
+[13:04:34] [Server thread/INFO]: Eddxp joined the game
+[13:04:34] [Server thread/INFO]: Eddxp[/192.168.196.1:51615] logged in with entity id 422 at ([hub]-20.977746458154137, -60.0, 4.272394185583149)
+[13:04:53] [Server thread/INFO]: Eddxp issued server command: /creative
+[13:05:10] [Server thread/INFO]: [@: Gave 1 [PIROCA PRETA] to Eddxp]
+[13:05:16] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/336, l='ServerLevel[hub]', x=-22.70, y=-60.00, z=-12.87] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:17] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/334, l='ServerLevel[hub]', x=-23.61, y=-60.00, z=-7.15] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:19] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/318, l='ServerLevel[hub]', x=-21.48, y=-60.00, z=-0.41] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:20] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/339, l='ServerLevel[hub]', x=-23.28, y=-60.00, z=5.04] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:22] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/338, l='ServerLevel[hub]', x=-23.27, y=-60.00, z=16.03] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:23] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/342, l='ServerLevel[hub]', x=-21.37, y=-60.00, z=20.43] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:23] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/438, l='ServerLevel[hub]', x=-20.94, y=-60.00, z=21.74] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:24] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/343, l='ServerLevel[hub]', x=-21.85, y=-60.00, z=21.99] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:24] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/323, l='ServerLevel[hub]', x=-18.14, y=-60.00, z=20.93] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:26] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/456, l='ServerLevel[hub]', x=-14.09, y=-60.00, z=27.41] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:27] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/454, l='ServerLevel[hub]', x=-12.21, y=-60.00, z=27.62] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:27] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/455, l='ServerLevel[hub]', x=-10.76, y=-60.00, z=27.05] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:28] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/457, l='ServerLevel[hub]', x=-10.61, y=-60.00, z=28.73] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:28] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/324, l='ServerLevel[hub]', x=-11.57, y=-60.00, z=31.09] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:49] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/367, l='ServerLevel[hub]', x=-34.33, y=-60.00, z=-4.63] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:51] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/359, l='ServerLevel[hub]', x=-37.78, y=-60.00, z=-4.63] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:53] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/365, l='ServerLevel[hub]', x=-38.56, y=-60.00, z=2.62] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:54] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/357, l='ServerLevel[hub]', x=-39.35, y=-60.00, z=4.24] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:58] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/370, l='ServerLevel[hub]', x=-33.54, y=-60.00, z=7.92] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:05:59] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/369, l='ServerLevel[hub]', x=-31.12, y=-60.00, z=3.52] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:06:00] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/358, l='ServerLevel[hub]', x=-33.83, y=-60.00, z=2.05] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:06:16] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/345, l='ServerLevel[hub]', x=-18.22, y=-60.00, z=30.07] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:06:17] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/346, l='ServerLevel[hub]', x=-20.78, y=-60.00, z=33.27] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:06:18] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/348, l='ServerLevel[hub]', x=-21.33, y=-60.00, z=36.95] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:06:43] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/362, l='ServerLevel[hub]', x=-43.67, y=-60.00, z=-14.20] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:06:44] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/374, l='ServerLevel[hub]', x=-40.06, y=-58.83, z=-15.22] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:06:50] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/363, l='ServerLevel[hub]', x=-29.41, y=-60.00, z=-9.29] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:01] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/320, l='ServerLevel[hub]', x=-10.96, y=-60.00, z=4.48] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:02] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/321, l='ServerLevel[hub]', x=-10.96, y=-60.00, z=3.04] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:04] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/590, l='ServerLevel[hub]', x=-11.48, y=-59.00, z=3.63] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:04] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/589, l='ServerLevel[hub]', x=-10.39, y=-60.00, z=2.52] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:05] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/587, l='ServerLevel[hub]', x=-11.48, y=-60.00, z=2.81] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:06] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/585, l='ServerLevel[hub]', x=-10.35, y=-60.00, z=2.63] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:06] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/596, l='ServerLevel[hub]', x=-8.77, y=-59.20, z=2.30] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:06] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/586, l='ServerLevel[hub]', x=-8.19, y=-58.83, z=2.52] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:07] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/588, l='ServerLevel[hub]', x=-10.62, y=-60.00, z=4.16] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:07] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/595, l='ServerLevel[hub]', x=-11.74, y=-60.00, z=3.83] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:07] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/605, l='ServerLevel[hub]', x=-10.19, y=-60.00, z=2.52] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:07] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/606, l='ServerLevel[hub]', x=-11.74, y=-60.00, z=3.41] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:07] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/612, l='ServerLevel[hub]', x=-10.51, y=-60.00, z=3.48] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:08] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/629, l='ServerLevel[hub]', x=-11.23, y=-59.50, z=2.77] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:09] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/599, l='ServerLevel[hub]', x=-11.74, y=-60.00, z=2.26] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:09] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/610, l='ServerLevel[hub]', x=-10.91, y=-60.00, z=3.19] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:09] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/604, l='ServerLevel[hub]', x=-10.00, y=-60.00, z=2.26] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:09] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/626, l='ServerLevel[hub]', x=-11.74, y=-60.00, z=2.58] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:09] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/627, l='ServerLevel[hub]', x=-10.01, y=-60.00, z=3.69] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:09] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/628, l='ServerLevel[hub]', x=-11.74, y=-60.00, z=3.42] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:10] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/611, l='ServerLevel[hub]', x=-11.74, y=-60.00, z=4.59] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:11] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/609, l='ServerLevel[hub]', x=-10.85, y=-60.00, z=2.26] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:12] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/600, l='ServerLevel[hub]', x=-8.17, y=-60.00, z=2.82] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:14] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/624, l='ServerLevel[hub]', x=-3.62, y=-60.00, z=3.47] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:14] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/622, l='ServerLevel[hub]', x=-3.43, y=-60.00, z=2.26] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:16] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/625, l='ServerLevel[hub]', x=-3.18, y=-60.00, z=2.82] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:16] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/623, l='ServerLevel[hub]', x=-1.49, y=-60.00, z=2.26] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:26] [Craft Scheduler Thread - 27/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[13:07:27] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/579, l='ServerLevel[hub]', x=-17.64, y=-60.00, z=18.24] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:29] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/578, l='ServerLevel[hub]', x=-18.94, y=-60.00, z=16.79] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:30] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/577, l='ServerLevel[hub]', x=-18.08, y=-60.00, z=13.25] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:32] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/580, l='ServerLevel[hub]', x=-18.02, y=-60.00, z=20.71] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[13:07:52] [Server thread/INFO]: Eddxp lost connection: Disconnected
+[13:07:52] [Server thread/INFO]: Eddxp left the game
+[13:22:26] [Craft Scheduler Thread - 34/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[13:37:26] [Craft Scheduler Thread - 38/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[13:52:26] [Craft Scheduler Thread - 41/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[14:07:26] [Craft Scheduler Thread - 41/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[14:22:26] [Craft Scheduler Thread - 50/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[14:23:54] [User Authenticator #2/INFO]: UUID of player Eddxp is 5e98235b-9335-34c5-a956-02234302bb4b
+[14:23:54] [Server thread/INFO]: Eddxp joined the game
+[14:23:54] [Server thread/INFO]: Eddxp[/192.168.196.1:58418] logged in with entity id 699 at ([hub]-5.395744295949116, -60.0, 4.760015749128966)
+[14:24:13] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/715, l='ServerLevel[hub]', x=-26.34, y=-60.00, z=28.53] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:24:14] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/703, l='ServerLevel[hub]', x=-23.21, y=-60.00, z=31.43] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:24:50] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/322, l='ServerLevel[hub]', x=-5.60, y=-60.00, z=15.53] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:24:58] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/337, l='ServerLevel[hub]', x=-29.06, y=-60.00, z=-3.02] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:24:59] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/361, l='ServerLevel[hub]', x=-28.07, y=-60.00, z=-9.12] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:25:00] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/335, l='ServerLevel[hub]', x=-27.07, y=-60.00, z=-10.38] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:25:02] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/707, l='ServerLevel[hub]', x=-35.73, y=-60.00, z=-10.80] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:25:06] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/729, l='ServerLevel[hub]', x=-44.94, y=-60.00, z=-5.17] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:25:07] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/380, l='ServerLevel[hub]', x=-48.71, y=-59.25, z=-3.86] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:25:27] [Server thread/INFO]: Eddxp issued server command: /creative
+[14:29:46] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/340, l='ServerLevel[hub]', x=-16.65, y=-60.00, z=18.16] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:29:48] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/754, l='ServerLevel[hub]', x=-26.15, y=-60.00, z=22.87] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:29:52] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/371, l='ServerLevel[hub]', x=-37.34, y=-60.00, z=13.31] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:29:56] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/957, l='ServerLevel[hub]', x=-41.16, y=-60.00, z=-1.04] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:29:58] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/929, l='ServerLevel[hub]', x=-36.41, y=-60.00, z=-0.92] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:29:59] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/842, l='ServerLevel[hub]', x=-32.08, y=-59.25, z=-4.91] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:30:00] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/867, l='ServerLevel[hub]', x=-31.84, y=-60.00, z=-5.82] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:30:02] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/956, l='ServerLevel[hub]', x=-26.42, y=-60.00, z=-10.56] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:30:09] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/341, l='ServerLevel[hub]', x=-8.44, y=-60.00, z=22.65] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:30:14] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/909, l='ServerLevel[hub]', x=-19.02, y=-60.00, z=-0.66] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:37:23] [Server thread/INFO]: Named entity EntityZombie['Lvl 0. | Zombie | ❤ -0,8/20,2'/1346, l='ServerLevel[hub]', x=-22.50, y=-60.00, z=9.35] died: Lvl 0. | Zombie | ❤ -0,8/20,2 burned to death
+[14:37:26] [Craft Scheduler Thread - 59/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[14:37:33] [Server thread/INFO]: Named entity EntitySkeleton['Lvl 0. | Skeleton | ❤ -0,8/20,2'/1380, l='ServerLevel[hub]', x=-12.21, y=-60.00, z=-84.25] died: Lvl 0. | Skeleton | ❤ -0,8/20,2 burned to death
+[14:37:33] [Server thread/INFO]: Named entity EntityZombie['Lvl 0. | Zombie | ❤ -0,8/20,2'/1321, l='ServerLevel[hub]', x=41.36, y=-60.00, z=-54.42] died: Lvl 0. | Zombie | ❤ -0,8/20,2 burned to death
+[14:37:41] [Server thread/INFO]: Named entity EntityZombie['Lvl 1. | Zombie | ❤ -0,8/20,2'/1383, l='ServerLevel[hub]', x=-30.22, y=-60.00, z=108.22] died: Lvl 1. | Zombie | ❤ -0,8/20,2 burned to death
+[14:37:53] [Server thread/INFO]: Named entity EntitySkeleton['Lvl 0. | Skeleton | ❤ -0,8/20,2'/1403, l='ServerLevel[hub]', x=42.26, y=-60.00, z=-28.78] died: Lvl 0. | Skeleton | ❤ -0,8/20,2 burned to death
+[14:37:59] [Server thread/INFO]: Named entity EntitySkeleton['Lvl 0. | Skeleton | ❤ -0,8/20,2'/1310, l='ServerLevel[hub]', x=-57.25, y=-60.00, z=76.21] died: Lvl 0. | Skeleton | ❤ -0,8/20,2 burned to death
+[14:38:07] [Server thread/INFO]: Named entity EntityZombie['Lvl 0. | Zombie | ❤ -0,8/20,2'/1373, l='ServerLevel[hub]', x=26.57, y=-60.00, z=18.45] died: Lvl 0. | Zombie | ❤ -0,8/20,2 burned to death
+[14:38:16] [Server thread/INFO]: Named entity EntityZombie['Lvl 0. | Zombie | ❤ -0,8/20,2'/1396, l='ServerLevel[hub]', x=-69.81, y=-60.00, z=-11.75] died: Lvl 0. | Zombie | ❤ -0,8/20,2 burned to death
+[14:38:29] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[14:38:30] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[14:38:30] [Server thread/INFO]: Debug logging is disabled
+[14:38:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:38:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:38:30] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:38:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:38:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:38:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:38:30] [Server thread/INFO]: Simulation Distance: 5
+[14:38:30] [Server thread/INFO]: View Distance: 7
+[14:38:30] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:38:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:38:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:38:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:38:30] [Server thread/INFO]: Mob Spawn Range: 6
+[14:38:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:38:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:38:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:38:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:38:30] [Server thread/INFO]: Max TNT Explosions: 100
+[14:38:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:38:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:38:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:38:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:38:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:38:30] [Server thread/INFO]: Simulation Distance: 5
+[14:38:30] [Server thread/INFO]: View Distance: 7
+[14:38:30] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:38:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:38:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:38:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:38:30] [Server thread/INFO]: Mob Spawn Range: 6
+[14:38:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:38:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:38:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:38:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:38:30] [Server thread/INFO]: Max TNT Explosions: 100
+[14:38:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:38:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:38:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:38:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:38:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:38:30] [Server thread/INFO]: Simulation Distance: 5
+[14:38:30] [Server thread/INFO]: View Distance: 7
+[14:38:30] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:38:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:38:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:38:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:38:30] [Server thread/INFO]: Mob Spawn Range: 6
+[14:38:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:38:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:38:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:38:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:38:30] [Server thread/INFO]: Max TNT Explosions: 100
+[14:38:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:38:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: -------- World Settings For [hub] --------
+[14:38:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:38:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:38:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:38:30] [Server thread/INFO]: Simulation Distance: 5
+[14:38:30] [Server thread/INFO]: View Distance: 7
+[14:38:30] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:38:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:38:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:38:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:38:30] [Server thread/INFO]: Mob Spawn Range: 6
+[14:38:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:38:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:38:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:38:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:38:30] [Server thread/INFO]: Max TNT Explosions: 100
+[14:38:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:38:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:38:30] [Server thread/INFO]: [SignShop] Disabling SignShop v4.0.0
+[14:38:30] [Server thread/INFO]: [SignShop] Successfully cancelled async sellers.yml save task with ID: 59
+[14:38:30] [Server thread/INFO]: [SignShop] Successfully cancelled async timing.yml save task with ID: 60
+[14:38:30] [Server thread/INFO]: [SignShop] Disabled
+[14:38:30] [Server thread/INFO]: [AureliumMobs] Disabling AureliumMobs v1.18
+[14:38:30] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.1
+[14:38:30] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[14:38:30] [Server thread/INFO]: [QuickShop] Disabling QuickShop v1.13-0.9.39-beta
+[14:38:30] [Server thread/INFO]: [BeautyQuests] Disabling BeautyQuests v1.0_BUILD383
+[14:38:30] [Server thread/INFO]: [BeautyQuests] Periodic saves task stopped.
+[14:38:30] [Server thread/INFO]: [BeautyQuests] 1 scoreboards deleted.
+[14:38:30] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.1.4
+[14:38:30] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+21-c68b277
+[14:38:30] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[14:38:30] [Server thread/ERROR]: Há uma boa chance do seu server estar recarregando agora. Se é esse o caso, por que você se odeia? Não espere nenhum suporte da equipe EssentialsX ao usar /reload.
+[14:38:30] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.4.1-${CI_COMMIT_SHORT_SHA}
+[14:38:30] [Server thread/INFO]: [MythicMobs] [35m[1m------------------------------------------------------------[0m[0m
+[14:38:30] [Server thread/INFO]: [MythicMobs] [35m[1m- [0m[0m
+[14:38:30] [Server thread/INFO]: [MythicMobs] [35m[1m- [33mUnloading Mythic...[0m[0m
+[14:38:30] [Server thread/INFO]: [MythicMobs] [35m[1m- [0m[0m
+[14:38:30] [Server thread/INFO]: [MythicMobs] [35m[1m------------------------------------------------------------[0m[0m
+[14:38:30] [Server thread/INFO]: [MythicMobs] [35m[1m- [0mSpawners saved and unloaded...[0m[0m
+[14:38:30] [Server thread/INFO]: [MythicMobs] [35m[1m- [0mMobs saved and unloaded...[0m[0m
+[14:38:30] [Server thread/INFO]: [MythicMobs] [35m[1m- [0mVariables saved...[0m[0m
+[14:38:30] [Server thread/INFO]: [MythicMobs] [35m[1m- [0mAll active settings have been saved![0m[0m
+[14:38:30] [Server thread/INFO]: [MythicMobs] [35m[1m- [0mMythic has been unloaded![0m[0m
+[14:38:30] [Server thread/INFO]: [MythicMobs] [35m[1m------------------------------------------------------------[0m[0m
+[14:38:30] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.17+6544-56d0383
+[14:38:30] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:38:30] [Server thread/INFO]: [AureliumSkills] Disabling AureliumSkills vBeta 1.3.23
+[14:38:30] [Server thread/INFO]: [Skills] Backed up Yaml data as backup-2023-11-17_14-38-30.yml[m
+[14:38:30] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[14:38:30] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[14:38:30] [Server thread/INFO]: [TAB] Disabling TAB v4.0.9
+[14:38:30] [Server thread/INFO]: [TAB] [38;2;85;255;85mDisabled in 2ms[m
+[14:38:30] [Server thread/INFO]: [NoMobGrief] Disabling NoMobGrief v1.0.0
+[14:38:30] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.1
+[14:38:30] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[14:38:30] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[14:38:30] [Server thread/INFO]: [SimpleHealthbars2] Disabling SimpleHealthbars2 v0.3.0
+[14:38:30] [Server thread/INFO]: [SimpleHealthbars2] SimpleHealthbars2 disabled.
+[14:38:30] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.5
+[14:38:30] [Server thread/INFO]: [TerraformGenerator] Disabling TerraformGenerator v11.1.1
+[14:38:30] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.108
+[14:38:30] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:38:30] [Server thread/INFO]: [LuckPerms] Closing storage...
+[14:38:30] [Server thread/INFO]: [LuckPerms] Goodbye!
+[14:38:30] [Server thread/INFO]: Loaded 7 recipes
+[14:38:31] [Server thread/ERROR]: Could not load 'plugins\orebfuscator-plugin-5.4.2.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency ProtocolLib. Please download and install ProtocolLib to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:433) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:964) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at org.bukkit.Bukkit.reload(Bukkit.java:833) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:875) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchServerCommand(CraftServer.java:860) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at net.minecraft.server.dedicated.DedicatedServer.bf(DedicatedServer.java:413) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:389) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1198) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1015) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[14:38:31] [Server thread/WARN]: Legacy plugin NoMobGrief v1.0.0 does not specify an api-version.
+[14:38:32] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.108
+[14:38:32] [Server thread/INFO]: [TerraformGenerator] Loading TerraformGenerator v11.1.1
+[14:38:32] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.5
+[14:38:32] [Server thread/INFO]: [SimpleHealthbars2] Loading SimpleHealthbars2 v0.3.0
+[14:38:32] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.1
+[14:38:32] [Server thread/INFO]: [NoMobGrief] Loading NoMobGrief v1.0.0
+[14:38:32] [Server thread/INFO]: [TAB] Loading TAB v4.0.9
+[14:38:32] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[14:38:32] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[14:38:32] [Server thread/INFO]: [AureliumSkills] Loading AureliumSkills vBeta 1.3.23
+[14:38:32] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.33-SNAPSHOT (build 3262)
+[14:38:32] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
+[14:38:32] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7d9e6088]
+[14:38:32] [Server thread/INFO]: [MythicMobs] Loading MythicMobs v5.4.1-${CI_COMMIT_SHORT_SHA}
+[14:38:32] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[14:38:33] [Server thread/INFO]: [MythicMobs] §4M§6y§6t§6h§2i§2c§2 §3E§3n§1a§1b§1l§5e§5d§4![0m
+[14:38:33] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+21-c68b277
+[14:38:33] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.1.4
+[14:38:33] [Server thread/INFO]: [BeautyQuests] Loading BeautyQuests v1.0_BUILD383
+[14:38:33] [Server thread/INFO]: [QuickShop] Loading QuickShop v1.13-0.9.39-beta
+[14:38:33] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.18.1
+[14:38:33] [Server thread/INFO]: [AureliumMobs] Loading AureliumMobs v1.18
+[14:38:33] [Server thread/INFO]: [SignShop] Loading SignShop v4.0.0
+[14:38:33] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.108
+[14:38:33] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[14:38:33] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.108[m
+[14:38:33] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[14:38:33] [Server thread/INFO]: [m
+[14:38:33] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:38:33] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:38:34] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:38:34] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:38:34] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1296ms)
+[14:38:34] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v11.1.1
+[14:38:34] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized[m
+[14:38:34] [Server thread/INFO]: [TerraformGenerator] [0;32;1mbStats Metrics enabled.[m
+[14:38:34] [Server thread/INFO]: [TerraformGenerator] Detected version: v1_20_R1, number: 20.1[m
+[14:38:34] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[14:38:34] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.0-dev+21-c68b277 which is not a depend or softdepend of this plugin.
+[14:38:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[14:38:34] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:38:34] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[14:38:34] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[14:38:34] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
+[14:38:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:38:34] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[14:38:34] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[14:38:35] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[14:38:35] [Server thread/INFO]: [WorldEdit] ====================================================
+[14:38:35] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[14:38:35] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[14:38:35] [Server thread/INFO]: [WorldEdit] ====================================================
+[14:38:35] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.5
+[14:38:35] [Server thread/INFO]: [SimpleHealthbars2] Enabling SimpleHealthbars2 v0.3.0
+[14:38:36] [Server thread/INFO]: [SimpleHealthbars2] SimpleHealthbars2 version 0.3.0 enabled!
+[14:38:36] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.1
+[14:38:36] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[14:38:36] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[14:38:36] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[14:38:36] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[14:38:36] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[14:38:36] [Server thread/INFO]: [NoMobGrief] Enabling NoMobGrief v1.0.0
+[14:38:36] [Server thread/INFO]: [TAB] Enabling TAB v4.0.9
+[14:38:36] [Server thread/INFO]: [TAB] [38;2;85;255;85mEnabled in 202ms[m
+[14:38:36] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[14:38:36] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[14:38:36] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[14:38:36] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[14:38:36] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[14:38:36] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[14:38:36] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.23
+[14:38:36] [Server thread/INFO]: [AureliumSkills] Vault Support Enabled!
+[14:38:36] [Server thread/INFO]: [AureliumSkills] Loaded 194 config options in 0 ms
+[14:38:36] [Server thread/INFO]: [AureliumSkills] Loaded 312 sources and 10 tags in 11ms
+[14:38:36] [Server thread/INFO]: [AureliumSkills] Loading languages...
+[14:38:37] [Server thread/INFO]: [AureliumSkills] Loaded 17 languages in 1120ms
+[14:38:37] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
+[14:38:38] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 5ms
+[14:38:38] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
+[14:38:38] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
+[14:38:38] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
+[14:38:38] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
+[14:38:38] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_20_R1! Trying to find NMS support
+[14:38:38] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[14:38:38] [Server thread/INFO]: [NBTAPI] Using the plugin 'AureliumSkills' to create a bStats instance!
+[14:38:38] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.33-SNAPSHOT (build 3262)
+[14:38:38] [Server thread/INFO]: [Citizens] Loading external libraries
+[14:38:38] [Server thread/ERROR]: [Citizens] v2.0.33-SNAPSHOT (build 3262) is not compatible with Minecraft v1_20_R1 - try upgrading Minecraft or Citizens. Disabling...
+[14:38:38] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.33-SNAPSHOT (build 3262)
+[14:38:38] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.4.1-${CI_COMMIT_SHORT_SHA}
+[14:38:39] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Spigot (MC: 1.20.1)...[0m
+[14:38:39] [Server thread/INFO]: [MythicMobs] The server is running Spigot; disabled PaperSpigot exclusive functionality[0m
+[14:38:40] [Server thread/WARN]: [MythicMobs] Loaded class me.ryanhamshire.GriefPrevention.GriefPrevention from GriefPrevention v16.18.1 which is not a depend or softdepend of this plugin.
+[14:38:40] [Server thread/INFO]: [MythicMobs] Mythic GriefPrevention Support has been enabled![0m
+[14:38:40] [Server thread/INFO]: [MythicMobs] Mythic Vault Support has been enabled![0m
+[14:38:40] [Server thread/INFO]: [MythicMobs] Base directory C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\SavedData
+[14:38:40] [Server thread/INFO]: [MythicMobs] Module directory C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\SavedData\worlds
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat ATTACK_DAMAGE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat ATTACK_SPEED from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat BONUS_DAMAGE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat CRITICAL_STRIKE_CHANCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat CRITICAL_STRIKE_DAMAGE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat CRITICAL_STRIKE_RESILIENCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat DAMAGE_REDUCTION from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat DEFENSE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat DODGE_CHANCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat DODGE_NEGATION from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat HEALTH from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat HEALTH_REGENERATION from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat LIFESTEAL_CHANCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat LIFESTEAL_POWER from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat MOVEMENT_SPEED from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_CHANCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_NEGATION from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_POWER from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_COUNTERATTACK from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat ARMOR_GENERIC from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat ARMOR_BLUNT from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat ARMOR_SHARP from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat DAMAGE_BLUNT from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat DAMAGE_SHARP from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat FIRE_RESISTANCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading stat SPEED from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
+[14:38:42] [Server thread/ERROR]: [MythicMobs] [31mBadly configured enchantment[37m
+[14:38:42] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 10 mobs.[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 6 skills.[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
+[14:38:42] [Server thread/ERROR]: [MythicMobs] Plugin MythicMobs v5.4.1-${CI_COMMIT_SHORT_SHA} has failed to register events for class io.lumine.mythic.bukkit.adapters.BukkitSkillTriggers because com/destroystokyo/paper/event/entity/CreeperIgniteEvent does not exist.
+[14:38:42] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics[0m
+[14:38:42] [Server thread/INFO]: [MythicMobs] [32m✓ MythicMobs v5.4.1 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded![0m[0m
+[14:38:42] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+21-c68b277
+[14:38:42] [Server thread/ERROR]: You are running an unsupported server version!
+[14:38:42] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[14:38:42] [Server thread/INFO]: No kits found to migrate.
+[14:38:43] [Server thread/INFO]: Loaded 39094 items from items.json.
+[14:38:43] [Server thread/INFO]: Using locale pt_BR
+[14:38:43] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[14:38:43] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[14:38:43] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[14:38:43] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[14:38:43] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.1.4
+[14:38:43] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using lang-en.yml as language file.[m
+[14:38:43] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 16 section configs from /sections/[m
+[14:38:43] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 16 shop configs from /shops/[m
+[14:38:43] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Updating Shop settings...[m
+[14:38:43] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Successfully hooked into Vault[m
+[14:38:43] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 1 economy provider(s) for all 14 shop sections.[m
+[14:38:43] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using minecraft version 1.20.1...[m
+[14:38:43] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Spawner provider set to AUTO in config[m
+[14:38:43] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Automatically searching for compatible spawner provider....[m
+[14:38:43] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Failed to automatically find compatible spawner provider, using default...[m
+[14:38:43] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Debug mode is enabled.[m
+[14:38:43] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Loading all items...[m
+[14:38:43] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Initialized - Took 354ms to complete[m
+[14:38:43] [Server thread/INFO]: [BeautyQuests] Enabling BeautyQuests v1.0_BUILD383
+[14:38:43] [Server thread/INFO]: [BeautyQuests] ------------ BeautyQuests ------------
+[14:38:43] [Server thread/WARN]: [BeautyQuests] You are not running the Paper software.
+It is highly recommended to use it for extended features and more stability.
+[14:38:43] [Server thread/INFO]: [BeautyQuests] Loaded valid Minecraft version 1_20_R1.
+[14:38:43] [Server thread/INFO]: [BeautyQuests] Loaded language en_US (0.028s)!
+[14:38:43] [Server thread/INFO]: [BeautyQuests] Loaded start particles: REDSTONE in shape POINT with color R255 G255 B0
+[14:38:43] [Server thread/INFO]: [BeautyQuests] Loaded talk particles: VILLAGER_HAPPY in shape BAR
+[14:38:43] [Server thread/INFO]: [BeautyQuests] Loaded next particles: SMOKE_NORMAL in shape SPOT
+[14:38:44] [Server thread/INFO]: [QuickShop] Enabling QuickShop v1.13-0.9.39-beta
+[14:38:44] [Server thread/INFO]: [QuickShop] Found permission provider.
+[14:38:44] [Server thread/INFO]: [QuickShop] 7 is not a valid material.  Check your spelling or ID
+[14:38:44] [Server thread/WARN]: Invalid custom item name definition {NETHER_STALK;Nether Wart;Nether Wart} Error: Invalid material: NETHER_STALK
+[14:38:44] [Server thread/INFO]: [QuickShop] Limit cfg found...
+[14:38:44] [Server thread/INFO]: [QuickShop] Limits.use: false
+[14:38:44] [Server thread/INFO]: [QuickShop] {quickshop=0, quickshop.vip=20}
+[14:38:44] [Server thread/INFO]: [QuickShop] Loading shops from database...
+[14:38:44] [Server thread/INFO]: [QuickShop] Loaded 0 shops.
+[14:38:44] [Server thread/INFO]: Cleaning purchase messages from database that are over a week old...
+[14:38:44] [Server thread/INFO]: [QuickShop] Registering Listeners
+[14:38:44] [Server thread/INFO]: [QuickShop] QuickShop loaded!
+[14:38:44] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.1
+[14:38:44] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[14:38:44] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
+[14:38:44] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[14:38:44] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[14:38:44] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[14:38:44] [Server thread/INFO]: [AureliumMobs] Enabling AureliumMobs v1.18
+[14:38:44] [Server thread/INFO]: [SignShop] Enabling SignShop v4.0.0
+[14:38:45] [Server thread/INFO]: [SignShop] Checking data version.
+[14:38:45] [Server thread/INFO]: [SignShop] Your data is current.
+[14:38:45] [Server thread/INFO]: [SignShop] Loading and validating shops, please wait...
+[14:38:45] [Server thread/INFO]: [SignShop] Loaded zero potential shops.
+[14:38:45] [Server thread/INFO]: [SignShop] Thank you for enabling metrics!
+[14:38:45] [Server thread/INFO]: [SignShop] v4.0.0 Enabled
+[14:38:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:38:45] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[14:38:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15444ms or 308 ticks behind
+[14:38:45] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[14:38:45] [Craft Scheduler Thread - 60/INFO]: [DecentHolograms] Loading holograms... 
+[14:38:45] [Craft Scheduler Thread - 64/INFO]: §6Buscando informações da versão...
+[14:38:45] [Server thread/INFO]: [BeautyQuests] 0 quests loaded (0.026s)!
+[14:38:45] [Server thread/INFO]: [BeautyQuests] Periodic saves task started (18000 ticks). Task ID: 1060
+[14:38:45] [Craft Scheduler Thread - 60/INFO]: [DecentHolograms] Loaded 2 holograms!
+[14:38:45] [Craft Scheduler Thread - 66/INFO]: [Vault] Checking for Updates ... 
+[14:38:45] [Craft Scheduler Thread - 66/WARN]: [Vault] No files found, or Feed URL is bad.
+[14:38:45] [Craft Scheduler Thread - 66/INFO]: [Vault] No new version available
+[14:38:47] [Server thread/WARN]: [BeautyQuests] ********************************************************
+[14:38:47] [Server thread/WARN]: [BeautyQuests] * There is a new version of BeautyQuests available!
+[14:38:47] [Server thread/WARN]: [BeautyQuests] *  
+[14:38:47] [Server thread/WARN]: [BeautyQuests] * Your version:   383
+[14:38:47] [Server thread/WARN]: [BeautyQuests] * Latest version: 386
+[14:38:47] [Server thread/WARN]: [BeautyQuests] *  
+[14:38:47] [Server thread/WARN]: [BeautyQuests] * Please update to the newest version.
+[14:38:47] [Server thread/WARN]: [BeautyQuests] *  
+[14:38:47] [Server thread/WARN]: [BeautyQuests] * Download:
+[14:38:47] [Server thread/WARN]: [BeautyQuests] *   https://ci.codemc.io/job/SkytAsul/job/BeautyQuests
+[14:38:47] [Server thread/WARN]: [BeautyQuests] ********************************************************
+[14:39:26] [Server thread/INFO]: Named entity EntitySkeleton['Lvl 0. | Skeleton | ❤ -0,8/20,2'/1390, l='ServerLevel[hub]', x=56.18, y=-60.00, z=34.76] died: Lvl 0. | Skeleton | ❤ -0,8/20,2 burned to death
+[14:40:36] [Server thread/INFO]: Eddxp lost connection: Login timed out!
+[14:40:36] [Server thread/INFO]: Eddxp left the game.
+[14:40:48] [User Authenticator #3/INFO]: UUID of player Eddxp is 5e98235b-9335-34c5-a956-02234302bb4b
+[14:40:48] [Server thread/INFO]: Eddxp joined the game
+[14:40:48] [Server thread/INFO]: Eddxp[/192.168.196.1:59919] logged in with entity id 1610 at ([hub]-21.437470746885754, -60.0, 10.181821116701618)
+[14:41:03] [Server thread/INFO]: Eddxp issued server command: /creative
+[14:41:30] [Server thread/INFO]: Eddxp issued server command: /survival
+[14:41:39] [Server thread/INFO]: Eddxp issued server command: /creative
+[14:42:13] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/1522, l='ServerLevel[hub]', x=-13.89, y=-59.58, z=-0.62] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:43:31] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/730, l='ServerLevel[hub]', x=-19.41, y=-60.00, z=-8.46] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[14:52:29] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[14:52:29] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[14:52:29] [Server thread/INFO]: Debug logging is disabled
+[14:52:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:52:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:52:29] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:52:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:52:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:52:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:52:29] [Server thread/INFO]: Simulation Distance: 5
+[14:52:29] [Server thread/INFO]: View Distance: 7
+[14:52:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:52:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:52:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:52:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:52:29] [Server thread/INFO]: Mob Spawn Range: 6
+[14:52:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:52:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:52:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:52:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:52:29] [Server thread/INFO]: Max TNT Explosions: 100
+[14:52:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:52:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:52:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:52:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:52:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:52:29] [Server thread/INFO]: Simulation Distance: 5
+[14:52:29] [Server thread/INFO]: View Distance: 7
+[14:52:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:52:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:52:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:52:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:52:29] [Server thread/INFO]: Mob Spawn Range: 6
+[14:52:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:52:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:52:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:52:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:52:29] [Server thread/INFO]: Max TNT Explosions: 100
+[14:52:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:52:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:52:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:52:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:52:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:52:29] [Server thread/INFO]: Simulation Distance: 5
+[14:52:29] [Server thread/INFO]: View Distance: 7
+[14:52:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:52:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:52:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:52:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:52:29] [Server thread/INFO]: Mob Spawn Range: 6
+[14:52:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:52:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:52:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:52:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:52:29] [Server thread/INFO]: Max TNT Explosions: 100
+[14:52:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:52:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: -------- World Settings For [hub] --------
+[14:52:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:52:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:52:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:52:29] [Server thread/INFO]: Simulation Distance: 5
+[14:52:29] [Server thread/INFO]: View Distance: 7
+[14:52:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:52:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:52:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:52:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:52:29] [Server thread/INFO]: Mob Spawn Range: 6
+[14:52:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:52:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:52:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14:52:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:52:29] [Server thread/INFO]: Max TNT Explosions: 100
+[14:52:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:52:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:52:29] [Server thread/INFO]: [SignShop] Disabling SignShop v4.0.0
+[14:52:29] [Server thread/INFO]: [SignShop] Successfully cancelled async sellers.yml save task with ID: 1053
+[14:52:29] [Server thread/INFO]: [SignShop] Successfully cancelled async timing.yml save task with ID: 1054
+[14:52:29] [Server thread/INFO]: [SignShop] Disabled
+[14:52:29] [Server thread/INFO]: [AureliumMobs] Disabling AureliumMobs v1.18
+[14:52:29] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.1
+[14:52:29] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[14:52:29] [Server thread/INFO]: [QuickShop] Disabling QuickShop v1.13-0.9.39-beta
+[14:52:29] [Server thread/INFO]: [BeautyQuests] Disabling BeautyQuests v1.0_BUILD383
+[14:52:29] [Server thread/INFO]: [BeautyQuests] Periodic saves task stopped.
+[14:52:29] [Server thread/INFO]: [BeautyQuests] 1 scoreboards deleted.
+[14:52:29] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.1.4
+[14:52:29] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+21-c68b277
+[14:52:29] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[14:52:29] [Server thread/ERROR]: Há uma boa chance do seu server estar recarregando agora. Se é esse o caso, por que você se odeia? Não espere nenhum suporte da equipe EssentialsX ao usar /reload.
+[14:52:29] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.4.1-${CI_COMMIT_SHORT_SHA}
+[14:52:29] [Server thread/INFO]: [MythicMobs] [35m[1m------------------------------------------------------------[0m[0m
+[14:52:29] [Server thread/INFO]: [MythicMobs] [35m[1m- [0m[0m
+[14:52:29] [Server thread/INFO]: [MythicMobs] [35m[1m- [33mUnloading Mythic...[0m[0m
+[14:52:29] [Server thread/INFO]: [MythicMobs] [35m[1m- [0m[0m
+[14:52:29] [Server thread/INFO]: [MythicMobs] [35m[1m------------------------------------------------------------[0m[0m
+[14:52:29] [Server thread/INFO]: [MythicMobs] [35m[1m- [0mSpawners saved and unloaded...[0m[0m
+[14:52:29] [Server thread/INFO]: [MythicMobs] [35m[1m- [0mMobs saved and unloaded...[0m[0m
+[14:52:29] [Server thread/INFO]: [MythicMobs] [35m[1m- [0mVariables saved...[0m[0m
+[14:52:29] [Server thread/INFO]: [MythicMobs] [35m[1m- [0mAll active settings have been saved![0m[0m
+[14:52:29] [Server thread/INFO]: [MythicMobs] [35m[1m- [0mMythic has been unloaded![0m[0m
+[14:52:29] [Server thread/INFO]: [MythicMobs] [35m[1m------------------------------------------------------------[0m[0m
+[14:52:29] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.17+6544-56d0383
+[14:52:29] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:52:29] [Server thread/INFO]: [AureliumSkills] Disabling AureliumSkills vBeta 1.3.23
+[14:52:29] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[14:52:29] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[14:52:29] [Server thread/INFO]: [TAB] Disabling TAB v4.0.9
+[14:52:29] [Server thread/INFO]: [TAB] [38;2;85;255;85mDisabled in 1ms[m
+[14:52:29] [Server thread/INFO]: [NoMobGrief] Disabling NoMobGrief v1.0.0
+[14:52:29] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.1
+[14:52:29] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[14:52:29] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[14:52:29] [Server thread/INFO]: [SimpleHealthbars2] Disabling SimpleHealthbars2 v0.3.0
+[14:52:29] [Server thread/INFO]: [SimpleHealthbars2] SimpleHealthbars2 disabled.
+[14:52:29] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.5
+[14:52:29] [Server thread/INFO]: [TerraformGenerator] Disabling TerraformGenerator v11.1.1
+[14:52:29] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.108
+[14:52:29] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:52:29] [Server thread/INFO]: [LuckPerms] Closing storage...
+[14:52:29] [Server thread/INFO]: [LuckPerms] Goodbye!
+[14:52:29] [Server thread/INFO]: Loaded 7 recipes
+[14:52:30] [Server thread/ERROR]: Could not load 'plugins\orebfuscator-plugin-5.4.2.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency ProtocolLib. Please download and install ProtocolLib to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:433) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:964) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at org.bukkit.Bukkit.reload(Bukkit.java:833) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:875) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchServerCommand(CraftServer.java:860) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at net.minecraft.server.dedicated.DedicatedServer.bf(DedicatedServer.java:413) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:389) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1198) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1015) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3859-Spigot-94e187b-f70a7b6]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[14:52:30] [Server thread/WARN]: Legacy plugin NoMobGrief v1.0.0 does not specify an api-version.
+[14:52:30] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.108
+[14:52:30] [Server thread/INFO]: [TerraformGenerator] Loading TerraformGenerator v11.1.1
+[14:52:30] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.5
+[14:52:30] [Server thread/INFO]: [SimpleHealthbars2] Loading SimpleHealthbars2 v0.3.0
+[14:52:30] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.1
+[14:52:30] [Server thread/INFO]: [NoMobGrief] Loading NoMobGrief v1.0.0
+[14:52:30] [Server thread/INFO]: [TAB] Loading TAB v4.0.9
+[14:52:30] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[14:52:30] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[14:52:30] [Server thread/INFO]: [AureliumSkills] Loading AureliumSkills vBeta 1.3.23
+[14:52:30] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.33-SNAPSHOT (build 3262)
+[14:52:30] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
+[14:52:31] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@760b47a8]
+[14:52:31] [Server thread/INFO]: [MythicMobs] Loading MythicMobs v5.4.1-${CI_COMMIT_SHORT_SHA}
+[14:52:31] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[14:52:31] [Server thread/INFO]: [MythicMobs] §4M§6y§6t§6h§2i§2c§2 §3E§3n§1a§1b§1l§5e§5d§4![0m
+[14:52:31] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+21-c68b277
+[14:52:31] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.1.4
+[14:52:31] [Server thread/INFO]: [BeautyQuests] Loading BeautyQuests v1.0_BUILD383
+[14:52:31] [Server thread/INFO]: [QuickShop] Loading QuickShop v1.13-0.9.39-beta
+[14:52:31] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.18.1
+[14:52:31] [Server thread/INFO]: [AureliumMobs] Loading AureliumMobs v1.18
+[14:52:31] [Server thread/INFO]: [SignShop] Loading SignShop v4.0.0
+[14:52:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.108
+[14:52:31] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[14:52:31] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.108[m
+[14:52:31] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[14:52:31] [Server thread/INFO]: [m
+[14:52:31] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:52:31] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:52:32] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:52:32] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:52:32] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1144ms)
+[14:52:32] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v11.1.1
+[14:52:32] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized[m
+[14:52:32] [Server thread/INFO]: [TerraformGenerator] [0;32;1mbStats Metrics enabled.[m
+[14:52:32] [Server thread/INFO]: [TerraformGenerator] Detected version: v1_20_R1, number: 20.1[m
+[14:52:32] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[14:52:32] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.0-dev+21-c68b277 which is not a depend or softdepend of this plugin.
+[14:52:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[14:52:32] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:52:32] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[14:52:32] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[14:52:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
+[14:52:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:52:32] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[14:52:32] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[14:52:33] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[14:52:33] [Server thread/INFO]: [WorldEdit] ====================================================
+[14:52:33] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[14:52:33] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[14:52:33] [Server thread/INFO]: [WorldEdit] ====================================================
+[14:52:33] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.5
+[14:52:33] [Server thread/INFO]: [SimpleHealthbars2] Enabling SimpleHealthbars2 v0.3.0
+[14:52:34] [Server thread/INFO]: [SimpleHealthbars2] SimpleHealthbars2 version 0.3.0 enabled!
+[14:52:34] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.1
+[14:52:34] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[14:52:34] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[14:52:34] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[14:52:34] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[14:52:34] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[14:52:34] [Server thread/INFO]: [NoMobGrief] Enabling NoMobGrief v1.0.0
+[14:52:34] [Server thread/INFO]: [TAB] Enabling TAB v4.0.9
+[14:52:34] [Server thread/INFO]: [TAB] [38;2;85;255;85mEnabled in 162ms[m
+[14:52:34] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[14:52:34] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[14:52:34] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[14:52:34] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[14:52:34] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[14:52:34] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[14:52:34] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.23
+[14:52:34] [Server thread/INFO]: [AureliumSkills] Vault Support Enabled!
+[14:52:34] [Server thread/INFO]: [AureliumSkills] Loaded 194 config options in 1 ms
+[14:52:34] [Server thread/INFO]: [AureliumSkills] Loaded 312 sources and 10 tags in 8ms
+[14:52:34] [Server thread/INFO]: [AureliumSkills] Loading languages...
+[14:52:35] [Server thread/INFO]: [AureliumSkills] Loaded 17 languages in 1039ms
+[14:52:35] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
+[14:52:35] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 3ms
+[14:52:36] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
+[14:52:36] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
+[14:52:36] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
+[14:52:36] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
+[14:52:36] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_20_R1! Trying to find NMS support
+[14:52:36] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[14:52:36] [Server thread/INFO]: [NBTAPI] Using the plugin 'AureliumSkills' to create a bStats instance!
+[14:52:36] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.33-SNAPSHOT (build 3262)
+[14:52:36] [Server thread/INFO]: [Citizens] Loading external libraries
+[14:52:36] [Server thread/ERROR]: [Citizens] v2.0.33-SNAPSHOT (build 3262) is not compatible with Minecraft v1_20_R1 - try upgrading Minecraft or Citizens. Disabling...
+[14:52:36] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.33-SNAPSHOT (build 3262)
+[14:52:36] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.4.1-${CI_COMMIT_SHORT_SHA}
+[14:52:36] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Spigot (MC: 1.20.1)...[0m
+[14:52:36] [Server thread/INFO]: [MythicMobs] The server is running Spigot; disabled PaperSpigot exclusive functionality[0m
+[14:52:37] [Server thread/WARN]: [MythicMobs] Loaded class me.ryanhamshire.GriefPrevention.GriefPrevention from GriefPrevention v16.18.1 which is not a depend or softdepend of this plugin.
+[14:52:37] [Server thread/INFO]: [MythicMobs] Mythic GriefPrevention Support has been enabled![0m
+[14:52:37] [Server thread/INFO]: [MythicMobs] Mythic Vault Support has been enabled![0m
+[14:52:37] [Server thread/INFO]: [MythicMobs] Base directory C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\SavedData
+[14:52:37] [Server thread/INFO]: [MythicMobs] Module directory C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\SavedData\worlds
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat ATTACK_DAMAGE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat ATTACK_SPEED from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat BONUS_DAMAGE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat CRITICAL_STRIKE_CHANCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat CRITICAL_STRIKE_DAMAGE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat CRITICAL_STRIKE_RESILIENCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat DAMAGE_REDUCTION from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat DEFENSE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat DODGE_CHANCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat DODGE_NEGATION from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat HEALTH from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat HEALTH_REGENERATION from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat LIFESTEAL_CHANCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat LIFESTEAL_POWER from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat MOVEMENT_SPEED from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_CHANCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_NEGATION from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_POWER from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_COUNTERATTACK from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat ARMOR_GENERIC from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat ARMOR_BLUNT from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat ARMOR_SHARP from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat DAMAGE_BLUNT from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat DAMAGE_SHARP from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat FIRE_RESISTANCE from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading stat SPEED from C:\Users\Eduardo\Desktop\Server Big RPG 1.20.1\plugins\MythicMobs\stats.yml[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
+[14:52:39] [Server thread/ERROR]: [MythicMobs] [31mBadly configured enchantment[37m
+[14:52:39] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 10 mobs.[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 6 skills.[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[14:52:39] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
+[14:52:39] [Server thread/ERROR]: [MythicMobs] Plugin MythicMobs v5.4.1-${CI_COMMIT_SHORT_SHA} has failed to register events for class io.lumine.mythic.bukkit.adapters.BukkitSkillTriggers because com/destroystokyo/paper/event/entity/CreeperIgniteEvent does not exist.
+[14:52:40] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics[0m
+[14:52:40] [Server thread/INFO]: [MythicMobs] [32m✓ MythicMobs v5.4.1 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded![0m[0m
+[14:52:40] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+21-c68b277
+[14:52:40] [Server thread/ERROR]: You are running an unsupported server version!
+[14:52:40] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[14:52:40] [Server thread/INFO]: No kits found to migrate.
+[14:52:40] [Server thread/INFO]: Loaded 39094 items from items.json.
+[14:52:40] [Server thread/INFO]: Using locale pt_BR
+[14:52:40] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[14:52:40] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[14:52:40] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[14:52:40] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[14:52:40] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.1.4
+[14:52:40] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using lang-en.yml as language file.[m
+[14:52:40] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 16 section configs from /sections/[m
+[14:52:40] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 16 shop configs from /shops/[m
+[14:52:40] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Updating Shop settings...[m
+[14:52:40] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Successfully hooked into Vault[m
+[14:52:40] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 1 economy provider(s) for all 14 shop sections.[m
+[14:52:40] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using minecraft version 1.20.1...[m
+[14:52:40] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Spawner provider set to AUTO in config[m
+[14:52:40] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Automatically searching for compatible spawner provider....[m
+[14:52:40] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Failed to automatically find compatible spawner provider, using default...[m
+[14:52:40] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Debug mode is enabled.[m
+[14:52:40] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Loading all items...[m
+[14:52:41] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Initialized - Took 319ms to complete[m
+[14:52:41] [Server thread/INFO]: [BeautyQuests] Enabling BeautyQuests v1.0_BUILD383
+[14:52:41] [Server thread/INFO]: [BeautyQuests] ------------ BeautyQuests ------------
+[14:52:41] [Server thread/WARN]: [BeautyQuests] You are not running the Paper software.
+It is highly recommended to use it for extended features and more stability.
+[14:52:41] [Server thread/INFO]: [BeautyQuests] Loaded valid Minecraft version 1_20_R1.
+[14:52:41] [Server thread/INFO]: [BeautyQuests] Loaded language en_US (0.031s)!
+[14:52:41] [Server thread/INFO]: [BeautyQuests] Loaded start particles: REDSTONE in shape POINT with color R255 G255 B0
+[14:52:41] [Server thread/INFO]: [BeautyQuests] Loaded talk particles: VILLAGER_HAPPY in shape BAR
+[14:52:41] [Server thread/INFO]: [BeautyQuests] Loaded next particles: SMOKE_NORMAL in shape SPOT
+[14:52:41] [Server thread/INFO]: [QuickShop] Enabling QuickShop v1.13-0.9.39-beta
+[14:52:41] [Server thread/INFO]: [QuickShop] Found permission provider.
+[14:52:41] [Server thread/INFO]: [QuickShop] 7 is not a valid material.  Check your spelling or ID
+[14:52:41] [Server thread/WARN]: Invalid custom item name definition {NETHER_STALK;Nether Wart;Nether Wart} Error: Invalid material: NETHER_STALK
+[14:52:41] [Server thread/INFO]: [QuickShop] Limit cfg found...
+[14:52:41] [Server thread/INFO]: [QuickShop] Limits.use: false
+[14:52:41] [Server thread/INFO]: [QuickShop] {quickshop=0, quickshop.vip=20}
+[14:52:41] [Server thread/INFO]: [QuickShop] Loading shops from database...
+[14:52:41] [Server thread/INFO]: [QuickShop] Loaded 0 shops.
+[14:52:41] [Server thread/INFO]: Cleaning purchase messages from database that are over a week old...
+[14:52:41] [Server thread/INFO]: [QuickShop] Registering Listeners
+[14:52:41] [Server thread/INFO]: [QuickShop] QuickShop loaded!
+[14:52:41] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.1
+[14:52:41] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[14:52:41] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
+[14:52:42] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[14:52:42] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[14:52:42] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[14:52:42] [Server thread/INFO]: [AureliumMobs] Enabling AureliumMobs v1.18
+[14:52:42] [Server thread/INFO]: [SignShop] Enabling SignShop v4.0.0
+[14:52:42] [Server thread/INFO]: [SignShop] Checking data version.
+[14:52:42] [Server thread/INFO]: [SignShop] Your data is current.
+[14:52:42] [Server thread/INFO]: [SignShop] Loading and validating shops, please wait...
+[14:52:42] [Server thread/INFO]: [SignShop] Loaded zero potential shops.
+[14:52:42] [Server thread/INFO]: [SignShop] Thank you for enabling metrics!
+[14:52:42] [Server thread/INFO]: [SignShop] v4.0.0 Enabled
+[14:52:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:52:42] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[14:52:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13456ms or 269 ticks behind
+[14:52:42] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[14:52:42] [Craft Scheduler Thread - 61/INFO]: [DecentHolograms] Loading holograms... 
+[14:52:42] [Craft Scheduler Thread - 64/INFO]: §6Buscando informações da versão...
+[14:52:42] [Server thread/INFO]: [BeautyQuests] 0 quests loaded (0.015s)!
+[14:52:42] [Craft Scheduler Thread - 61/INFO]: [DecentHolograms] Loaded 2 holograms!
+[14:52:42] [Server thread/INFO]: [BeautyQuests] Periodic saves task started (18000 ticks). Task ID: 1307
+[14:52:42] [Craft Scheduler Thread - 63/INFO]: [Vault] Checking for Updates ... 
+[14:52:42] [Server thread/INFO]: Eddxp lost connection: Disconnected
+[14:52:42] [Server thread/INFO]: Eddxp left the game
+[14:52:42] [Craft Scheduler Thread - 63/WARN]: [Vault] No files found, or Feed URL is bad.
+[14:52:42] [Craft Scheduler Thread - 63/INFO]: [Vault] No new version available
+[14:52:44] [Server thread/WARN]: [BeautyQuests] ********************************************************
+[14:52:44] [Server thread/WARN]: [BeautyQuests] * There is a new version of BeautyQuests available!
+[14:52:44] [Server thread/WARN]: [BeautyQuests] *  
+[14:52:44] [Server thread/WARN]: [BeautyQuests] * Your version:   383
+[14:52:44] [Server thread/WARN]: [BeautyQuests] * Latest version: 386
+[14:52:44] [Server thread/WARN]: [BeautyQuests] *  
+[14:52:44] [Server thread/WARN]: [BeautyQuests] * Please update to the newest version.
+[14:52:44] [Server thread/WARN]: [BeautyQuests] *  
+[14:52:44] [Server thread/WARN]: [BeautyQuests] * Download:
+[14:52:44] [Server thread/WARN]: [BeautyQuests] *   https://ci.codemc.io/job/SkytAsul/job/BeautyQuests
+[14:52:44] [Server thread/WARN]: [BeautyQuests] ********************************************************
+[14:52:51] [User Authenticator #4/INFO]: UUID of player Eddxp is 5e98235b-9335-34c5-a956-02234302bb4b
+[14:52:51] [Server thread/INFO]: Eddxp joined the game
+[14:52:51] [Server thread/INFO]: Eddxp[/192.168.196.1:60846] logged in with entity id 2000 at ([hub]-19.224324597108215, -60.0, -6.914243045575441)
+[14:53:05] [Craft Scheduler Thread - 64/WARN]: §6Não é possível verificar a sua versão! Informação da versão: §cid:'c68b277' branch:'2.x' isDev:true§6.
+[14:53:12] [Server thread/INFO]: Eddxp lost connection: Disconnected
+[14:53:12] [Server thread/INFO]: Eddxp left the game
+[14:53:21] [User Authenticator #5/INFO]: UUID of player Eddxp is 5e98235b-9335-34c5-a956-02234302bb4b
+[14:53:21] [Server thread/INFO]: Eddxp joined the game
+[14:53:21] [Server thread/INFO]: Eddxp[/192.168.196.1:60916] logged in with entity id 2011 at ([hub]-19.224324597108215, -60.0, -6.914243045575441)
+[14:53:43] [Server thread/INFO]: Eddxp issued server command: /creative
+[14:54:39] [Server thread/ERROR]: [MythicMobs] [31m[EVENTS] Exception thrown whilst handling event: org.bukkit.event.player.PlayerBucketEmptyEvent[37m
+[14:54:39] [Server thread/WARN]: java.lang.NoSuchMethodError: 'org.bukkit.entity.Entity org.bukkit.entity.Player.getTargetEntity(int, boolean)'
+[14:54:39] [Server thread/WARN]: 	at io.lumine.mythic.bukkit.adapters.BukkitSkillTriggers.onBucketFill(BukkitSkillTriggers.java:154)
+[14:54:39] [Server thread/WARN]: 	at io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[14:54:39] [Server thread/WARN]: 	at io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[14:54:39] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[14:54:39] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589)
+[14:54:39] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576)
+[14:54:39] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.event.CraftEventFactory.getPlayerBucketEvent(CraftEventFactory.java:512)
+[14:54:39] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.event.CraftEventFactory.callPlayerBucketEmptyEvent(CraftEventFactory.java:484)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.world.item.ItemBucket.emptyContents(ItemBucket.java:149)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.world.item.ItemBucket.a(ItemBucket.java:106)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.world.item.ItemStack.a(ItemStack.java:490)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.server.level.PlayerInteractManager.a(PlayerInteractManager.java:448)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1722)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:32)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(SourceFile:18)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:156)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1152)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.x(SourceFile:130)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1131)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1124)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:139)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.p_(MinecraftServer.java:1108)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1019)
+[14:54:39] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304)
+[14:54:39] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1589)
+[14:57:25] [Server thread/INFO]: Eddxp issued server command: /survival
+[14:57:32] [Server thread/INFO]: Eddxp issued server command: /creative
+[14:57:38] [Server thread/INFO]: Eddxp issued server command: /skill
+[14:57:58] [Server thread/INFO]: Named entity EntitySkeleton['Lvl 0. | Skeleton | ❤ -0,8/20,2'/2118, l='ServerLevel[hub]', x=-36.27, y=-60.00, z=-12.63] died: Lvl 0. | Skeleton | ❤ -0,8/20,2 burned to death
+[14:58:05] [Server thread/INFO]: Named entity EntitySkeleton['Lvl 0. | Skeleton | ❤ -0,8/20,2'/2059, l='ServerLevel[hub]', x=48.75, y=-60.00, z=28.79] died: Lvl 0. | Skeleton | ❤ -0,8/20,2 burned to death
+[14:58:16] [Server thread/INFO]: Named entity EntitySkeleton['Lvl 0. | Skeleton | ❤ -0,8/20,2'/2139, l='ServerLevel[hub]', x=-27.50, y=-60.00, z=-83.73] died: Lvl 0. | Skeleton | ❤ -0,8/20,2 burned to death
+[14:58:34] [Server thread/INFO]: Named entity EntityZombie['Lvl 0. | Zombie | ❤ -0,8/20,2'/2135, l='ServerLevel[hub]', x=18.24, y=-60.00, z=84.18] died: Lvl 0. | Zombie | ❤ -0,8/20,2 burned to death
+[14:58:55] [Server thread/INFO]: Eddxp issued server command: /creative
+[14:59:17] [Server thread/INFO]: Eddxp issued server command: /survival
+[14:59:28] [Server thread/INFO]: Eddxp issued server command: /creative
+[15:00:37] [Server thread/INFO]: Eddxp issued server command: /skills
+[15:04:23] [Server thread/INFO]: Eddxp issued server command: /survival
+[15:04:28] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/1876, l='ServerLevel[hub]', x=-12.61, y=-60.00, z=-13.49] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[15:04:29] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/1516, l='ServerLevel[hub]', x=-13.20, y=-60.00, z=-10.21] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[15:04:34] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/1586, l='ServerLevel[hub]', x=-17.57, y=-58.81, z=-12.13] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[15:04:36] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/2353, l='ServerLevel[hub]', x=-17.94, y=-60.00, z=-6.61] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[15:04:37] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/3025, l='ServerLevel[hub]', x=-16.76, y=-60.00, z=-4.99] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[15:04:38] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/3026, l='ServerLevel[hub]', x=-15.54, y=-60.00, z=-4.40] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[15:04:42] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/1511, l='ServerLevel[hub]', x=-10.97, y=-58.75, z=-9.92] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[15:04:46] [Server thread/INFO]: Named entity EntitySlime['Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮]'/1785, l='ServerLevel[hub]', x=-11.42, y=-60.00, z=-9.65] died: Slime [▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮] was slain by Eddxp using [PIROCA PRETA]
+[15:05:08] [Server thread/INFO]: Eddxp issued server command: /creative
+[15:05:10] [Server thread/INFO]: Eddxp lost connection: Disconnected
+[15:05:10] [Server thread/INFO]: Eddxp left the game
+[15:05:36] [Server thread/INFO]: Stopping the server
+[15:05:36] [Server thread/INFO]: Stopping server
+[15:05:36] [Server thread/INFO]: [SignShop] Disabling SignShop v4.0.0
+[15:05:36] [Server thread/INFO]: [SignShop] Successfully cancelled async sellers.yml save task with ID: 1300
+[15:05:36] [Server thread/INFO]: [SignShop] Successfully cancelled async timing.yml save task with ID: 1301
+[15:05:36] [Server thread/INFO]: [SignShop] Disabled
+[15:05:36] [Server thread/INFO]: [AureliumMobs] Disabling AureliumMobs v1.18
+[15:05:36] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.1
+[15:05:36] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[15:05:36] [Server thread/INFO]: [QuickShop] Disabling QuickShop v1.13-0.9.39-beta
+[15:05:36] [Server thread/INFO]: [BeautyQuests] Disabling BeautyQuests v1.0_BUILD383
+[15:05:36] [Server thread/INFO]: [BeautyQuests] Periodic saves task stopped.
+[15:05:36] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.1.4
+[15:05:36] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+21-c68b277
+[15:05:36] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[15:05:36] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.4.1-${CI_COMMIT_SHORT_SHA}
+[15:05:36] [Server thread/INFO]: [MythicMobs] [35m[1m------------------------------------------------------------[0m[0m
+[15:05:36] [Server thread/INFO]: [MythicMobs] [35m[1m- [0m[0m
+[15:05:36] [Server thread/INFO]: [MythicMobs] [35m[1m- [33mUnloading Mythic...[0m[0m
+[15:05:36] [Server thread/INFO]: [MythicMobs] [35m[1m- [0m[0m
+[15:05:36] [Server thread/INFO]: [MythicMobs] [35m[1m------------------------------------------------------------[0m[0m
+[15:05:36] [Server thread/INFO]: [MythicMobs] [35m[1m- [0mSpawners saved and unloaded...[0m[0m
+[15:05:36] [Server thread/INFO]: [MythicMobs] [35m[1m- [0mMobs saved and unloaded...[0m[0m
+[15:05:36] [Server thread/INFO]: [MythicMobs] [35m[1m- [0mVariables saved...[0m[0m
+[15:05:36] [Server thread/INFO]: [MythicMobs] [35m[1m- [0mAll active settings have been saved![0m[0m
+[15:05:36] [Server thread/INFO]: [MythicMobs] [35m[1m- [0mMythic has been unloaded![0m[0m
+[15:05:36] [Server thread/INFO]: [MythicMobs] [35m[1m------------------------------------------------------------[0m[0m
+[15:05:36] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.17+6544-56d0383
+[15:05:36] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[15:05:36] [Server thread/INFO]: [AureliumSkills] Disabling AureliumSkills vBeta 1.3.23
+[15:05:36] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[15:05:36] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[15:05:36] [Server thread/INFO]: [TAB] Disabling TAB v4.0.9
+[15:05:36] [Server thread/INFO]: [TAB] [38;2;85;255;85mDisabled in 0ms[m
+[15:05:36] [Server thread/INFO]: [NoMobGrief] Disabling NoMobGrief v1.0.0
+[15:05:36] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.1
+[15:05:36] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[15:05:36] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[15:05:36] [Server thread/INFO]: [SimpleHealthbars2] Disabling SimpleHealthbars2 v0.3.0
+[15:05:36] [Server thread/INFO]: [SimpleHealthbars2] SimpleHealthbars2 disabled.
+[15:05:36] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.5
+[15:05:36] [Server thread/INFO]: [TerraformGenerator] Disabling TerraformGenerator v11.1.1
+[15:05:36] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.108
+[15:05:36] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[15:05:36] [Server thread/INFO]: [LuckPerms] Closing storage...
+[15:05:36] [Server thread/INFO]: [LuckPerms] Goodbye!
+[15:05:36] [Server thread/INFO]: Saving players
+[15:05:36] [Server thread/INFO]: Saving worlds
+[15:05:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:05:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:05:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:05:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[hub]'/minecraft:hub
+[15:05:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:05:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:05:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:05:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (hub): All chunks are saved
+[15:05:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
